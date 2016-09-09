@@ -1,0 +1,20 @@
+# Site settings
+url: https://ericakatrak.github.io
+title: Erica Katrak - designer
+description: "Erica Katrak works at the intersection of design, research, and code."
+name: Erica Katrak
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  blue: 2979FF
+  teal: 26C6DA
+  purple: 7C4DFF
+  fuschia: F23E5C
+
+# Footer settings
+footer:
+  copyright: Erica Katrak
+
+# Build settings
+markdown: kramdown
+permalink: none

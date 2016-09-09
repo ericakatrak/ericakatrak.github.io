@@ -1,0 +1,40 @@
+<!-- Footer -->
+<footer>
+  <p class="meta lt">&copy; Copyright {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
+</footer>
+
+<script src="{{ site.url }}/js/jquery.min.js"></script>
+<script src="{{ site.url }}/js/masonry.pkgd.min.js"></script>
+<script src="{{ site.url }}/js/imagesloaded.js"></script>
+<script src="{{ site.url }}/js/classie.js"></script>
+<script src="{{ site.url }}/js/AnimOnScroll.js"></script>
+<script src="{{ site.url }}/js/menu.js"></script>
+<script src="{{ site.url }}/js/jribbble.min.js"></script>
+
+<script>
+  new AnimOnScroll( document.getElementById( 'grid' ), {
+    minDuration : 0.4,
+    maxDuration : 0.7,
+    viewportFactor : 0.2
+  } );
+</script>
+<script>
+  $.jribbble.setToken('f038606c8e1714076692adfbf21709a1a51290b0a89ef48aaa51a431cedde42b');
+  /*
+    Jribbble methods make ajax requests to the Dribbble API. When
+    the requests complete, a Promise is returned. Use `then` to take an action
+    on the response from the server.
+  */
+  $.jribbble.teams('lookout').shots().then(function(shots) {
+    var html = [];
+    
+    shots.forEach(function(shot) {
+      html.push('<li class="shot">');
+      html.push('<a href="' + shot.html_url + '" target="_blank">');
+      html.push('<img src="' + shot.images.normal + '">');
+      html.push('</a></li>');
+    });
+    
+    $('.shots').html(html.join(''));
+  });
+</script>
