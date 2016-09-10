@@ -12,7 +12,7 @@ alt: Launchpad
 
 </section>
 
-<ul class="grid fade grid-full" id="grid">
+<ul class="grid grid-full fade" id="grid">
   <li><img class="effect-1" src="{{ site.url }}/img/work/launchpad2.jpg" alt="" /></li>
 </ul>
 
@@ -24,7 +24,7 @@ alt: Launchpad
   <p>Now post-launch, people all across the United States use the site to guide them in setting up their business.</p>
 </section>
 
-<ul class="grid fade grid-half" id="grid">
+<ul class="grid grid-half fade" id="grid">
   <li><img src="{{ site.url }}/img/work/launchpad3.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/launchpad4.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/launchpad5.jpg" alt="{{ page.alt }}" /></li>
