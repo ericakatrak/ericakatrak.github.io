@@ -84,9 +84,10 @@ section {
 }
 
 footer {
-  margin:4em;
+	font-size: .85em;
+	text-align: center;
+	margin: 4em;
 }
-footer p {text-align: center;}
 
 
 /* Image Grids */
