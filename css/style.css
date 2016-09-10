@@ -187,6 +187,7 @@ a.back {
 	color: transparent;
 	border: none;
 	outline: none;
+	display: none;
 }
 a.back:hover {
   opacity: 0.8;
