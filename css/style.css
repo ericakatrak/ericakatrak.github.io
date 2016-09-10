@@ -99,22 +99,24 @@ footer {
 	padding: 0;
 }
 
-.grid li {
-  display: block;
-	float: left;
-	opacity: 0;
-}
 .grid-half li {
+	display: block;
+	float: left;
 	margin: .5%;
 	width: 49%;
 	width: -webkit-calc(98% / 2);
 	width: calc(98% / 2);
+	opacity: 0;
 }
+
 .grid-full li {
+	display: block;
+	float: left;
 	margin: 0 0 .5%;
 	width: 100%;
 	width: -webkit-calc(100% / 1);
 	width: calc(100% / 1);
+	opacity: 0;
 }
 
 .grid li.shown,
@@ -365,7 +367,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   section {
     padding: 8% 10%;
   }
-  .grid-half li {
+  .grid li {
     margin: 0 0 .5%;
     width: 100%;
     width: -webkit-calc(100% / 1);
