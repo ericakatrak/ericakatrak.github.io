@@ -17,16 +17,20 @@
     <script src="{{ site.url }}/js/jribbble.min.js"></script>
 
     <script>
-      new AnimOnScroll( document.getElementById( 'grid-full' ), {
-        minDuration : 0.4,
-        maxDuration : 0.7,
-        viewportFactor : 0.2
-      } );
-      new AnimOnScroll( document.getElementById( 'grid' ), {
-        minDuration : 0.4,
-        maxDuration : 0.7,
-        viewportFactor : 0.2
-      } );
+      if(document.getElementById("grid-full")){
+        new AnimOnScroll( document.getElementById( 'grid-full' ), {
+          minDuration : 0.4,
+          maxDuration : 0.7,
+          viewportFactor : 0.2
+        } );
+      }
+      if(document.getElementById("grid")){
+        new AnimOnScroll( document.getElementById( 'grid' ), {
+          minDuration : 0.4,
+          maxDuration : 0.7,
+          viewportFactor : 0.2
+        } );
+      }
     </script>
     <script>
       $.jribbble.setToken('f038606c8e1714076692adfbf21709a1a51290b0a89ef48aaa51a431cedde42b');
