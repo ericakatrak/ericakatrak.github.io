@@ -3,6 +3,8 @@
   <p class="meta lt">&copy; Copyright {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
 </footer>
 
+{% include menu.html %}
+
 <script src="{{ site.url }}/js/jquery.min.js"></script>
 <script src="{{ site.url }}/js/masonry.pkgd.min.js"></script>
 <script src="{{ site.url }}/js/imagesloaded.js"></script>
@@ -12,7 +14,11 @@
 <script src="{{ site.url }}/js/jribbble.min.js"></script>
 
 <script>
-
+  new AnimOnScroll( document.getElementById( 'grid-full' ), {
+    minDuration : 0.4,
+    maxDuration : 0.7,
+    viewportFactor : 0.2
+  } );
   new AnimOnScroll( document.getElementById( 'grid' ), {
     minDuration : 0.4,
     maxDuration : 0.7,
