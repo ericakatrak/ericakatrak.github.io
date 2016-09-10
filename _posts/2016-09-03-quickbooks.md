@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a scalable design language
+title: Creating a scalable design system
 img: quickbooks1.png
 alt: Quickbooks
 ---
