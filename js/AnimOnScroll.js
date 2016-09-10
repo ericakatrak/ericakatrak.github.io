@@ -101,18 +101,6 @@
 					transitionDuration : 0
 				} );
 				
-				// initialize masonry
-				new Masonry( self.el, {
-					itemSelector: 'li.half',
-					transitionDuration : 0
-				} );
-				
-				// initialize masonry
-				new Masonry( self.el, {
-					itemSelector: 'li.full',
-					transitionDuration : 0
-				} );
-				
 				if( Modernizr.cssanimations ) {
 					// the items already shown...
 					self.items.forEach( function( el, i ) {
