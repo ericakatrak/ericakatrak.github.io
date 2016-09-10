@@ -12,7 +12,9 @@ alt: Launchpad
 
 </section>
 
-<img class="effect-1" src="{{ site.url }}/img/work/launchpad2.jpg" alt="" />
+<ul class="grid grid-full fade" id="grid">
+  <li><img class="effect-1" src="{{ site.url }}/img/work/launchpad2.jpg" alt="" /></li>
+</ul>
 
 <section>
   <p>We began with robust internal research on the tasks and pain points common to business owners who are just starting out. After we clearly defined the problem and what to solve for, we dove into an analogous research exercise... were there other experiences that are similarly as daunting and require a lot of know-how in a short amount of time? We came up with examples such as purchasing a house, having a baby, and moving to a new country.</p>
@@ -22,7 +24,7 @@ alt: Launchpad
   <p>Now post-launch, people all across the United States use the site to guide them in setting up their business.</p>
 </section>
 
-<ul class="grid fade" id="grid">
+<ul class="grid grid-half fade" id="grid">
   <li><img src="{{ site.url }}/img/work/launchpad3.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/launchpad4.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/launchpad5.jpg" alt="{{ page.alt }}" /></li>

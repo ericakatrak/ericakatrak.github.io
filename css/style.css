@@ -99,13 +99,23 @@ footer {
 	padding: 0;
 }
 
-.grid li {
+.grid-half li {
 	display: block;
 	float: left;
 	margin: .5%;
 	width: 49%;
 	width: -webkit-calc(98% / 2);
 	width: calc(98% / 2);
+	opacity: 0;
+}
+
+.grid-full li {
+	display: block;
+	float: left;
+	margin: 0 0 .5%;
+	width: 100%;
+	width: -webkit-calc(100% / 1);
+	width: calc(100% / 1);
 	opacity: 0;
 }
 

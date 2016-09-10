@@ -9,12 +9,14 @@ alt: Quickbooks
   <p class="meta">Role: Lead Designer <span class="lt">/</span> Year: 2014</p>
   <p>As part of my previous role at Intuit, I worked with designers, engineers, researchers, writers, and product managers across the company to form a strategy and design system to build a seamless ecosystem of products. The work ranged from simple - such creating a type scale and a coherent and consistent color palette, to complex - such as designing a framework and logic for layouts, layering, and in-app navigation as we redesigned close to twenty products to work seamlessly together.</p>
 </section>
+
+<ul class="grid grid-full fade" id="grid">
+  <li><img src="{{ site.url }}/img/work/quickbooks1.png" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/quickbooks2.png" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/quickbooks3.png" alt="{{ page.alt }}" /></li>
+</ul>
   
-<img src="{{ site.url }}/img/work/quickbooks1.png" alt="{{ page.alt }}" />    
-<img src="{{ site.url }}/img/work/quickbooks2.png" alt="{{ page.alt }}" />
-<img src="{{ site.url }}/img/work/quickbooks3.png" alt="{{ page.alt }}" />
-  
-<ul class="grid fade" id="grid">
+<ul class="grid grid-half fade" id="grid">
   <li><img src="{{ site.url }}/img/work/quickbooks4.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/quickbooks5.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/quickbooks6.jpg" alt="{{ page.alt }}" /></li>
