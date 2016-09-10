@@ -14,7 +14,7 @@ alt: Launchpad
 
 <ul class="grid fade grid-full" id="grid-full">
   <li><img class="effect-1" src="{{ site.url }}/img/work/launchpad2.jpg" alt="" /></li>
-</li>
+</ul>
 
 <section>
   <p>We began with robust internal research on the tasks and pain points common to business owners who are just starting out. After we clearly defined the problem and what to solve for, we dove into an analogous research exercise... were there other experiences that are similarly as daunting and require a lot of know-how in a short amount of time? We came up with examples such as purchasing a house, having a baby, and moving to a new country.</p>
