@@ -108,15 +108,11 @@ footer {
 	width: calc(98% / 2);
 	opacity: 0;
 }
-.grid li.half {
-	width: 49%;
-	width: -webkit-calc(98% / 2);
-	width: calc(98% / 2);
-}
 .grid li.full {
 	width: 99%;
 	width: -webkit-calc(99% / 1);
 	width: calc(99% / 1);
+	opacity: 1;
 }
 
 .grid li.shown,
