@@ -111,9 +111,16 @@ footer {
 	width: calc(98% / 2);
 }
 .grid-full li {
-	width: 100%;
-	width: -webkit-calc(100% / 1);
-	width: calc(100% / 1);
+	width: 99%;
+	width: -webkit-calc(99% / 1);
+	width: calc(99% / 1);
+}
+/* Dribbble Stream */
+.shots li {
+  opacity: 1;
+  width: 24%;
+	width: -webkit-calc(96% / 4);
+	width: calc(96% / 4);
 }
 
 .grid li.shown,
@@ -175,14 +182,6 @@ footer {
 @keyframes fadeIn {
 	0% { }
 	100% { opacity: 1; }
-}
-
-/* Dribbble Stream */
-.shots li {
-  opacity: 1;
-  width: 24%;
-	width: -webkit-calc(96% / 4);
-	width: calc(96% / 4);
 }
 
 /* Back Link */
