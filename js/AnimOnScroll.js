@@ -103,12 +103,18 @@
 				
 				if( Modernizr.cssanimations ) {
 					// the items already shown...
+					//self.items.forEach( function( el, i ) {
+					//	if( inViewport( el ) ) {
+					//		self._checkTotalRendered();
+					//		classie.add( el, 'shown' );
+					//	}
+					//} );
 					self.items.forEach( function( el, i ) {
-						if( inViewport( el ) ) {
-							self._checkTotalRendered();
-							classie.add( el, 'shown' );
-						}
-					} );
+            if( inViewport( el ) ) {
+              self._checkTotalRendered();
+              classie.add( el, 'animate' );
+            }
+          } );
 
 					// animate on scroll the items inside the viewport
 					window.addEventListener( 'scroll', function() {
