@@ -7,7 +7,7 @@ alt: Quickbooks
 <section>
   <h1>{{ page.title }}</h1>
   <p class="meta">Role: Lead Designer <span class="lt">/</span> Year: 2014</p>
-  <p>As part of my previous role at Intuit, I worked with designers, engineers, researchers, writers, and product managers across the company to form a strategy and design system to build a seamless ecosystem of products. The work ranged from simple - such creating a type scale and a coherent and consistent color palette, to complex - such as designing a framework and logic for layouts, layering, and in-app navigation as we redesigned close to twenty products to work seamlessly together.</p>
+  <p>My challenge at Intuit? Create the world’s best tools for running a small business. As part of that effort, I worked with designers, engineers, researchers, writers, and product managers across the company to form a strategy and design system to build a seamless ecosystem of products. The work ranged from simple - such creating a type scale and a coherent and consistent color palette, to complex - such as designing a framework and logic for layouts, layering, and in-app navigation as we redesigned close to twenty products to work seamlessly together.</p>
 </section>
 
 <ul class="grid fade grid-full" id="grid-full">
