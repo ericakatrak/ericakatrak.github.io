@@ -41,14 +41,12 @@
       */
       $.jribbble.teams('lookout').shots().then(function(shots) {
         var html = [];
-        
         shots.forEach(function(shot) {
           html.push('<li class="shot">');
           html.push('<a href="' + shot.html_url + '" target="_blank">');
           html.push('<img src="' + shot.images.normal + '">');
           html.push('</a></li>');
         });
-        
         $('.shots').html(html.join(''));
       });
     </script>
