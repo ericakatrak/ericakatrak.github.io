@@ -39,7 +39,7 @@
         the requests complete, a Promise is returned. Use `then` to take an action
         on the response from the server.
       */
-      $.jribbble.teams('lookout').shots().then(function(shots) {
+      $.jribbble.teams('lookout').shots({per_page: 16}).then(function(shots) {
         var html = [];
         shots.forEach(function(shot) {
           html.push('<li class="shot">');
