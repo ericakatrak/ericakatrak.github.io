@@ -87,6 +87,7 @@ footer {
 	font-size: .85em;
 	text-align: center;
 	margin: 4em;
+	clear: both;
 }
 footer a {color: #EAEAFF;}
 
