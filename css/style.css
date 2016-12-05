@@ -366,7 +366,4 @@ html, body {
 	}
 	.overlay nav {height: 70%;}
 	.overlay ul li {min-height: 34px;}
-	
-	#trigger-overlay {display: none;}
-	.back {display: block;}
 }
