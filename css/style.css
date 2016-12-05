@@ -238,8 +238,9 @@ a.back:hover {
 	width: 40px;
 	height: 40px;
 	position: absolute;
-	right: 35px;
-	top: 30px;
+	top: 0;
+	right: 0;
+	padding: 4em;
 	overflow: hidden;
 	border: none;
 	background: url(/img/close.svg) no-repeat center center;
@@ -275,8 +276,8 @@ a.back:hover {
 
 .overlay ul li {
 	display: block;
-	height: 14%;
-	height: calc(100% / 7);
+	height: 11%;
+	height: calc(100% / 9);
 	min-height: 54px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
