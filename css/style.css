@@ -277,6 +277,7 @@ a.back:hover {
 .overlay ul li {
 	display: block;
 	height: 11%;
+	line-height: 1.2;
 	height: calc(100% / 9);
 	min-height: 54px;
 	-webkit-backface-visibility: hidden;
@@ -356,7 +357,7 @@ html, body {
 		line-height: 1.5;
 	}
 	section {
-		padding: 8% 10%;
+		padding: 8%;
 	}
 	.grid li {
 		margin: 0 0 .5%;
@@ -366,4 +367,6 @@ html, body {
 	}
 	.overlay nav {height: 70%;}
 	.overlay ul li {min-height: 34px;}
+	#trigger-overlay {display: none;}
+	a.back {display: block;}
 }
