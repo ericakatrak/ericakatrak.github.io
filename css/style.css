@@ -234,7 +234,6 @@ a.back:hover {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: -webkit-linear-gradient(left, #2979FF, #00A9FF);
 }
 
 /* Overlay closing cross */
