@@ -337,7 +337,7 @@ html, body {overflow-x: hidden;}
 }
 
 .overlay-contentpush {
-	background: -webkit-linear-gradient(left, #7C4DFF, #F23E5C);
+	background: -webkit-linear-gradient(left, #2979FF, #00A9FF);
 	visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
