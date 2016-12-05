@@ -200,7 +200,7 @@ a.back {
 }
 a.back:hover {
 	opacity: 0.8;
-	background: none;
+	cursor: pointer;
 }
 
 #trigger-overlay {
