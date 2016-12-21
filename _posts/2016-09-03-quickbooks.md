@@ -14,7 +14,8 @@ alt: Quickbooks
 <ul class="grid fade grid-full" id="grid-full">
   <li><img src="{{ site.url }}/img/work/quickbooks1.png" alt="{{ page.alt }}" /></li>  
   <li><img src="{{ site.url }}/img/work/quickbooks2.png" alt="{{ page.alt }}" /></li>  
-  <li><img src="{{ site.url }}/img/work/quickbooks3.png" alt="{{ page.alt }}" /></li>  
+  <li><img src="{{ site.url }}/img/work/quickbooks3.png" alt="{{ page.alt }}" /></li> 
+  <li><img src="{{ site.url }}/img/work/quickbooks10.png" alt="{{ page.alt }}" /></li>  
 </ul>
   
 <ul class="grid fade" id="grid">
