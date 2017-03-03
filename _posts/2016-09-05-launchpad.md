@@ -9,11 +9,10 @@ alt: Launchpad
   <p class="meta">Role: Researcher, Lead Designer <span class="lt">/</span> Year: 2015</p>
 
   <p>Every year, 1.3 million people Google &quot;how do I start a business&quot;. The solutions they typically arrive to consist of dauntingly verbose information from sba.gov, and fluffy articles from sites like Mashable about coming up with business ideas. There are so many compliance rules at the federal, state, and local levels that it's easy to get tripped up. Small business owners often can find themselves in a place where they're fined and penalized for something they didn't even know they needed to do. Our goal was to create a solution to cut through the noise, spur people to action, and give people more peace of mind as they set up their business.</p>
-
 </section>
 
 <ul class="grid fade grid-full" id="grid-full">
-  <li><img class="effect-1" src="{{ site.url }}/img/work/launchpad2.jpg" alt="" /></li>
+  <li><img src="{{ site.url }}/img/work/launchpad2.jpg" alt="{{ page.alt }}" /></li>
 </ul>
 
 <section>
