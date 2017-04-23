@@ -45,11 +45,12 @@ a:hover, a:focus {
 	background-image: linear-gradient(to bottom, transparent 0, #DCF6F9 0);
   background-position: 0 0.8em;
   background-repeat: no-repeat;
+  /*
   -webkit-transition: background-position 0.08s ease-out;
   -ms-transition: background-position 0.08s ease-out;
   -moz-transition: background-position 0.08s ease-out;
   -o-transition: background-position 0.08s ease-out;
-  transition: background-position 0.08s ease-out;
+  transition: background-position 0.08s ease-out;*/
 }
 
 img {
