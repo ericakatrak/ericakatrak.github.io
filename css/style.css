@@ -57,10 +57,11 @@ img ~ img {margin-top: 14px;}
 
 blockquote {
 	display: block;
-	margin: 1em 0 0.5em;
-	padding: 0 1em;
-	border-left: 5px solid #EAEAFF;
-	color: #84859F;
+  margin: 1.5em 0;
+  padding: 0 0.8em;
+  border-left: 5px solid #EAEAFF;
+  font-size: 0.85em;
+  color: #84859F;
 }
 
 cite {
