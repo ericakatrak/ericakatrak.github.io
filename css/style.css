@@ -125,6 +125,7 @@ footer a {color: #EAEAFF;}
 	display: block;
 	max-width: 100%;
 	overflow: hidden;
+	padding: 0;
 }
 
 .grid li figure {
