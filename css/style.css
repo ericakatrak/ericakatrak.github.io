@@ -83,9 +83,13 @@ footer {
 	text-align: center;
 	margin: 4em;
 	clear: both;
+	padding: 0;
 }
 footer a {color: #EAEAFF;}
-
+footer a:hover, footer a:focus {
+  background-image: none;
+  color: #A2B3D0;
+}
 
 /* Image Grids */
 
