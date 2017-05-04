@@ -18,8 +18,8 @@ html {
 body {
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 1.8;
+	font-size: 18px;
+	line-height: 1.6;
 	color: #52526C;
 }
 
@@ -36,7 +36,7 @@ h3 {
 p {margin-bottom: 1.5em;}
 
 a {
-	color: #2979FF;
+	color: #84859F;
 	text-decoration: none;
 	padding: 0 4px;
 }
@@ -77,6 +77,7 @@ section {
 	margin: 0 auto;
 	padding: 8% 18%;
 }
+section.intro {text-align: center;}
 
 footer {
 	font-size: .85em;
