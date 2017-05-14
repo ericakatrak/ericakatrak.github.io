@@ -204,166 +204,23 @@ footer a:hover, footer a:focus {
 /* Back Link */
 a.back {
 	display: block;
-	width: 100%;
-	padding: 40px;
 	background: url(/img/back.svg) no-repeat center center;
 	text-indent: 200%;
 	color: transparent;
 	border: none;
 	outline: none;
 	display: none;
+	width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4em;
+  overflow: hidden;
 }
 a.back:hover {
 	opacity: 0.8;
 	cursor: pointer;
-}
-
-#trigger-overlay {
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4em;
-	overflow: hidden;
-	border: none;
-	background: transparent;
-	background: url(/img/menu.svg) no-repeat center center;
-	text-indent: 200%;
-	color: transparent;
-	outline: none;
-}
-#trigger-overlay:hover {
-	opacity: 0.8;
-	cursor: pointer;
-}
-
-/* Overlay style */
-.overlay {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: #2979FF;
-}
-
-/* Overlay close */
-.overlay .overlay-close {
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4em;
-	overflow: hidden;
-	border: none;
-	background: url(/img/close.svg) no-repeat center center;
-	text-indent: 200%;
-	color: transparent;
-	outline: none;
-	z-index: 100;
-}
-
-.overlay .overlay-close:hover {
-	opacity: .8;
-	cursor: pointer;
-}
-
-/* Menu style */
-.overlay nav {
-	text-align: center;
-	position: relative;
-	top: 50%;
-	height: 60%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
-.overlay ul {
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
-	display: inline-block;
-	height: 100%;
-	position: relative;
-}
-
-.overlay ul li {
-	display: block;
-	height: 11%;
-	line-height: 1.2;
-	height: calc(100% / 9);
-	min-height: 54px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.overlay ul li a {
-	display: block;
-	color: #fff;
-}
-
-.overlay ul li a:hover,
-.overlay ul li a:focus {
-	opacity: .8;
-	background: transparent;
-}
-
-/* Effects */
-html, body {
-	overflow-x: hidden;
-}
-
-.container {
-	overflow-x: hidden;
-	-webkit-transition: -webkit-transform 0.5s;
-	transition: transform 0.5s;	
-}
-
-.container.overlay-open {
-	-webkit-transform: translateX(50%);
-	transform: translateX(50%);
-}
-
-.container::after {
-	content: '';
-	opacity: 0;
-	visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.6);
-	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
-	transition: opacity 0.5s, visibility 0s 0.5s;
-}
-
-.container.overlay-open::after {
-	visibility: visible;
-	opacity: 1;
-	-webkit-transition: opacity 0.5s;
-	transition: opacity 0.5s;
-}
-
-.overlay-contentpush {
-	background: -webkit-linear-gradient(left, #2979FF, #00A9FF);
-	visibility: hidden;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transform: translateX(-100%);
-	transform: translateX(-100%);
-	-webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
-	transition: transform 0.5s, visibility 0s 0.5s;
-}
-
-.overlay-contentpush.open {
-	visibility: visible;
-	-webkit-transform: translateX(0%);
-	transform: translateX(0%);
-	-webkit-transition: -webkit-transform 0.5s;
-	transition: transform 0.5s;
 }
 
 /* Media Queries */
@@ -377,8 +234,6 @@ html, body {
 		width: -webkit-calc(100% / 1);
 		width: calc(100% / 1);
 	}
-	#trigger-overlay {display: none;}
-	a.back {display: block;}
 }
 @media screen and (max-height: 30.5em) {
 	.overlay nav {height: 70%;}
