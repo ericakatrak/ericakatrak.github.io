@@ -32,6 +32,10 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+h1.span {
+  font-weight: 600;
+  font-style: italic;
+}
 
 p {margin-bottom: 1.5em;}
 
