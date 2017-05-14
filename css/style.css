@@ -216,7 +216,7 @@ a.back {
   left: 0;
   padding: 4em;
   overflow: hidden;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 a.back:hover {
 	opacity: 1.0;
