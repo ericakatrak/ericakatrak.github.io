@@ -216,9 +216,10 @@ a.back {
   left: 0;
   padding: 4em;
   overflow: hidden;
+  opacity: 0.75;
 }
 a.back:hover {
-	opacity: 0.8;
+	opacity: 1.0;
 	cursor: pointer;
 }
 
