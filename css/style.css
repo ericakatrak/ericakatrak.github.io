@@ -30,17 +30,12 @@ h1, h2, h3 {
 h1 {font-size: 2em;}
 section.intro h1 {margin-bottom: 0;}
 h2 {
-  font-size: .85em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-section.intro h2 {
   font-style: italic;
   font-family: "PT Serif", serif;
   margin-bottom: 2em;
 }
 h3 {
-  font-size: .75em;
+  font-size: .85em;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
