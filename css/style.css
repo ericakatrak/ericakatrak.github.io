@@ -23,20 +23,21 @@ body {
 	color: #52526C;
 }
 
-h1, h2, h3 {
-	margin-bottom: 1em;
-	font-weight: 900;
+h1 {
+  font-size: 2em;
+  font-weight: 900;
 }
-h1 {font-size: 2em;}
-section.intro h1 {margin-bottom: 0;}
+.post h1 {font-size: 1.75em;}
 h2 {
+  font-weight: 400;
   font-style: italic;
   font-family: "PT Serif", serif;
   margin-bottom: 2em;
-  font-weight: 400;
 }
+.post h2 {font-size: 1.2em;}
 h3 {
   font-size: .85em;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -60,8 +61,6 @@ img {
 }
 img ~ img {margin-top: 14px;}
 
-.lt, .meta {color: #A2B3D0;}
-
 strong {font-weight: 600;}
 
 blockquote {
@@ -77,6 +76,8 @@ cite {
 	font-style: normal;
 	padding: 0 0 0 8px;
 }
+
+.lt {color: #A2B3D0;}
 
 article {font-size: 100%;}
 
