@@ -30,8 +30,9 @@ h1, h2, h3 {
 h1 {font-size: 1.2em;}
 section.intro h1 {font-weight: 400;}
 h2 {
-  font-size: .75em;
-  font-weight: 600;
+  font-size: .85em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 h3 {font-size: .75em;}
 
