@@ -236,6 +236,10 @@ a.back:hover {
 		width: -webkit-calc(100% / 1);
 		width: calc(100% / 1);
 	}
+	a.back {
+    position: relative;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-height: 30.5em) {
 	.overlay nav {height: 70%;}
