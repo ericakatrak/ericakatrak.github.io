@@ -239,6 +239,7 @@ a.back:hover {
 	a.back {
     position: relative;
     margin: 0 auto;
+    padding: 2em;
   }
 }
 @media screen and (max-height: 30.5em) {
