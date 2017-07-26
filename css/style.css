@@ -34,7 +34,10 @@ h2 {
   font-family: "PT Serif", serif;
   margin-bottom: 2em;
 }
-.post h1 {font-size: 1.75em;}
+.post h1 {
+  font-size: 1.75em;
+  margin-bottom: 5px;
+}
 .post h2 {font-size: 1.2em;}
 h3 {
   font-size: .85em;
