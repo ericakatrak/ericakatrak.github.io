@@ -228,7 +228,7 @@ a.back:hover {
 /* Media Queries */
 @media screen and (max-width: 500px) {
 	section {
-		padding: 8%;
+		padding: 8% 4%;
 	}
 	.grid li {
 		margin: 0 0 .5%;
