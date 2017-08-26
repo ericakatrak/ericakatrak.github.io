@@ -27,6 +27,7 @@ h1 {
   font-size: 2em;
   font-weight: 900;
   line-height: 1.25;
+  margin-bottom: 15px;
 }
 h2 {
   font-weight: 400;
@@ -34,11 +35,9 @@ h2 {
   font-family: "PT Serif", serif;
   margin-bottom: 2em;
 }
-.post h1 {
-  font-size: 1.75em;
-  margin-bottom: 5px;
-}
+.post h1 {font-size: 1.75em;}
 .post h2 {font-size: 1.2em;}
+
 h3 {
   font-size: .85em;
   font-weight: 900;
