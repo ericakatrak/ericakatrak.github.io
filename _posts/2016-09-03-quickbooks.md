@@ -16,17 +16,18 @@ alt: Quickbooks
   <li><img src="{{ site.url }}/img/work/quickbooks2.png" alt="{{ page.alt }}" /></li>  
   <li><img src="{{ site.url }}/img/work/quickbooks3.png" alt="{{ page.alt }}" /></li> 
   <li><img src="{{ site.url }}/img/work/quickbooks10.png" alt="{{ page.alt }}" /></li>  
-</ul>
-  
-<ul class="grid fade" id="grid">
+
   <li><img src="{{ site.url }}/img/work/quickbooks4.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/quickbooks5.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/quickbooks6.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/quickbooks7.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/quickbooks8.jpg" alt="{{ page.alt }}" /></li>
-  <li><img src="{{ site.url }}/img/work/quickbooks9.jpg" alt="{{ page.alt }}" /></li>
 </ul>
 
 <section>
   <p>Intuit even made a cake to celebrate the ongoing success :)</p>
 </section>
+
+<ul class="grid fade grid-full" id="grid-full">
+  <li><img src="{{ site.url }}/img/work/quickbooks9.jpg" alt="{{ page.alt }}" /></li>
+</ul>
