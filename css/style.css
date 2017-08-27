@@ -122,17 +122,17 @@ footer a:hover, footer a:focus {
 .grid li {
 	display: block;
 	float: left;
-	margin: 1%;
-	width: 98%;
-	width: -webkit-calc(98% / 1);
-	width: calc(98% / 1);
+	margin: .5%;
+	width: 49%;
+	width: -webkit-calc(98% / 2);
+	width: calc(98% / 2);
 	opacity: 0;
 }
-.grid-full li {
-	width: 99%;
-	width: -webkit-calc(99% / 1);
-	width: calc(99% / 1);
-}
+  .grid-full li {
+  	width: 99%;
+  	width: -webkit-calc(99% / 1);
+  	width: calc(99% / 1);
+  }
 
 .grid li.shown,
 .no-js .grid li,
