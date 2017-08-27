@@ -29,14 +29,14 @@ h1 {
   line-height: 1.25;
   margin-bottom: 15px;
 }
-.intro h1 {
-  font-size: 2.6em;
-  font-weight: 400;
-  font-style: italic;
-  font-family: "PT Serif", serif;
-  margin-bottom: 1em;
-}
-
+  .intro h1 {
+    font-size: 2.4em;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "PT Serif", serif;
+    margin-bottom: 1em;
+    text-align: center;
+  }
 h2 {
   font-weight: 400;
   font-style: italic;
@@ -94,10 +94,6 @@ section {
 	max-width: 1300px;
 	margin: 0 auto;
 	padding: 8% 18%;
-}
-section.intro {
-  text-align: center;
-  padding: 8% 18%;
 }
 
 footer {
