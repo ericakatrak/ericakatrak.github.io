@@ -35,7 +35,6 @@ h1 {
     font-style: italic;
     font-family: "PT Serif", serif;
     margin-bottom: 1em;
-    text-align: center;
   }
 h2 {
   font-weight: 400;
@@ -95,6 +94,7 @@ section {
 	margin: 0 auto;
 	padding: 8% 18%;
 }
+  section.intro {text-align: center;}
 
 footer {
 	font-size: .85em;
