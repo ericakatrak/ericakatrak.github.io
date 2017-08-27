@@ -24,20 +24,26 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: 900;
   line-height: 1.25;
   margin-bottom: 15px;
 }
+.intro h1 {
+  font-size: 2.6em;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Serif", serif;
+  margin-bottom: 1em;
+}
+
 h2 {
   font-weight: 400;
   font-style: italic;
   font-family: "PT Serif", serif;
   margin-bottom: 2em;
+  font-size: 1.2em;
 }
-.post h1 {font-size: 1.75em;}
-.post h2 {font-size: 1.2em;}
-
 h3 {
   font-size: .85em;
   font-weight: 900;
@@ -91,7 +97,7 @@ section {
 }
 section.intro {
   text-align: center;
-  padding: 10% 18%;
+  padding: 8% 18%;
 }
 
 footer {
