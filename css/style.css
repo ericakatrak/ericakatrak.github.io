@@ -122,10 +122,10 @@ footer a:hover, footer a:focus {
 .grid li {
 	display: block;
 	float: left;
-	margin: .5%;
-	width: 49%;
-	width: -webkit-calc(98% / 2);
-	width: calc(98% / 2);
+	margin: 1%;
+	width: 98%;
+	width: -webkit-calc(98% / 1);
+	width: calc(98% / 1);
 	opacity: 0;
 }
 .grid-full li {
