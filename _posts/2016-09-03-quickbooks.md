@@ -22,9 +22,12 @@ alt: Quickbooks
   <li><img src="{{ site.url }}/img/work/quickbooks6.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/quickbooks7.jpg" alt="{{ page.alt }}" /></li>
   <li><img src="{{ site.url }}/img/work/quickbooks8.jpg" alt="{{ page.alt }}" /></li>
-  <li><img src="{{ site.url }}/img/work/quickbooks9.jpg" alt="{{ page.alt }}" /></li>
 </ul>
 
 <section>
   <p>Intuit even made a cake to celebrate the ongoing success :)</p>
 </section>
+
+<ul class="grid fade grid-full" id="grid-full">
+  <li><img style="width:100%" src="{{ site.url }}/img/work/quickbooks9.jpg" alt="{{ page.alt }}" /></li>
+</ul>
