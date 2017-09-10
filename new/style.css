@@ -46,15 +46,14 @@ body:after {
 section {
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 1vw;
 	position: relative;
 	z-index: 10;
 	max-width: 60vw;
 }
 
 h1 {
-	font-size: 4vw;
-	line-height: 5vw;
+	font-size: 3vw;
+	line-height: 4vw;
 	font-weight: 700;
 	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
@@ -75,7 +74,7 @@ h1 {
 }
 
 p {
-	font-size: 1.2vw;
+	font-size: 1vw;
 	line-height: 2vw;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -98,7 +97,7 @@ a {
 a:after {
 	content: '';
 	width: 0;
-	height: 2px;
+	height: 1.5px;
 	background: #222;
 	position: absolute;
 	bottom: -5px;
@@ -112,8 +111,8 @@ a:after {
 
 a.prefer {color: #FF3951;}
 a.prefer:after {background: #FF3951;}
-a.df {color: #00A293;}
-a.df:after {background: #00A293;}
+a.df {color: #00c4b3;}
+a.df:after {background: #00c4b3;}
 
 
 a:hover:after {
