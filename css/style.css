@@ -34,23 +34,24 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #fff;
+	background: #FFF;
 	/*background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
 	background-position: 0 0;
-	animation: border 5s linear infinite;
-	border: 2.5vw solid #fff;*/
-	color: #3C3C43;
+	animation: border 5s linear infinite;*/
+	border: 2.5vw solid #fff;
 }
 
 body:after {
 	content: "";
-	background: #F8F8FF;
+	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
+	background-size: 200% 200%;
+	background-position: 0 0;
 	position: absolute;
-	top: 2.5vw;
+	/*top: 2.5vw;
 	right: 2.5vw;
 	bottom: 2.5vw;
-	left: 2.5vw;
+	left: 2.5vw;*/
 }
 
 section {
@@ -79,7 +80,7 @@ h1 {
 	background-position: 0 0;*/
 
   /* fallback text color */
-  color: #3C3C43;
+  color: #FFF;
 
 }
 
@@ -95,7 +96,7 @@ p {
 }
 
 a {
-	color: #3C3C43;
+	color: #FFF;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -108,7 +109,7 @@ a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #3C3C43;
+	background: #FFF;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
@@ -135,7 +136,6 @@ a:hover:after {width: 100%;}
     opacity: 0;
     width: 0; 
   }
-
   100% {
     opacity: 1;
     width: 100%; 
