@@ -73,6 +73,17 @@ h1 {
 
 }
 
+h2 {
+	font-size: 1.2vw;
+	line-height: 2vw;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 0.1vw;
+	animation: fade 2s ease-out -.65s;
+	color: #F5F7FB;
+}
+
 p {
 	font-size: 1.2vw;
 	line-height: 2vw;
@@ -81,10 +92,11 @@ p {
 	font-family: "Open Sans", sans-serif;
 	letter-spacing: 0.1vw;
 	animation: fade 2s ease-out -.65s;
+	padding-bottom: 2vw;
 }
 
 a {
-	color: #3866B5;
+	color: #d5d8e3;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
