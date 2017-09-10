@@ -92,7 +92,7 @@ a {
 	margin .5vw;
 }
 
-a.more { margin: 1vh; }
+.more a { margin: 1vh; }
 
 a:after {
 	content: '';
