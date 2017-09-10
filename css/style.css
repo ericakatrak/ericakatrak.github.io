@@ -85,10 +85,10 @@ footer {
 .grid li {
 	display: block;
 	float: left;
-	margin: 1%;
+	margin: 0 .5%;
 	width: 30%;
-	width: -webkit-calc(100% / 3);
-	width: calc(100% / 3);
+	width: -webkit-calc(97% / 3);
+	width: calc(97% / 3);
 	opacity: 0;
 }
 
