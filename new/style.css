@@ -17,8 +17,6 @@ html {
 /* Common Style */
 
 body {
-
-	
 	text-transform: uppercase;
 	display: flex;
 	align-items: center;
@@ -33,6 +31,15 @@ body {
 	background-position: 0 0;
 	animation: border 5s linear infinite;
 	border: 2.5vw solid #303239;
+}
+body:after {
+	content: "";
+	background: #303239;
+	position: absolute;
+	top: 0.5vw;
+	right: 0.5vw;
+	bottom: 0.5vw;
+	left: 0.5vw;
 }
 
 h1 {
