@@ -33,6 +33,7 @@ body {
 	border: 2.5vw solid #fff;*/
 	color: #3C3C43;
 }
+
 body:after {
 	content: "";
 	background: #F8F8FF;
@@ -114,7 +115,37 @@ a.prefer:after {background: #FF3951;}
 a.df {color: #00c4b3;}
 a.df:after {background: #00c4b3;}
 
+a:hover:after {width: 100%;}
 
-a:hover:after {
-	width: 100%;
+
+@keyframes fade {
+  0%, 75% { opacity: 0; }
+  100% { opacity: 1; } }
+@keyframes reveal {
+  0%, 50% {
+    opacity: 0;
+    width: 0; 
+  }
+
+  100% {
+    opacity: 1;
+    width: 100%; 
+   } 
 }
+@keyframes border {
+  0% { background-position: 0 0; }
+  20% { background-position: 100% 0; }
+  40% { background-position: 100% 100%; }
+  60% { background-position: 0 100%; }
+  100% { background-position: 0 0; } 
+}
+@media all and (max-width: 640px) {
+  h1 {
+    font-size: 6vw;
+    line-height: 7.5vw;
+	}
+	p {
+		font-size: 1.5vw;
+	}
+ }
+
