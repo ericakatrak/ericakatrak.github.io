@@ -68,7 +68,7 @@ p {
 	color: #d5d8e3;
 	font-weight: 700;
 	font-style: italic;
-	font-family: "PT Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	letter-spacing: 0.2vw;
 	animation: fade 2s ease-out -.65s;
 }
@@ -79,6 +79,7 @@ a {
 	white-space: nowrap;
 	position: relative;
 	margin .5vw;
+	margin: .5vh;
 }
 
 a:after {
@@ -94,10 +95,6 @@ a:after {
 	-ms-transition: width 0.25s ease;
 	-o-transition: width 0.25s ease;
 	transition: width 0.25s ease
-}
-
-a:hover, a:focus {
-
 }
 
 a:hover:after {
