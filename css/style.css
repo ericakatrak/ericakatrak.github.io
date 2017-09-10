@@ -53,6 +53,14 @@ a.prefer:hover, a.prefer:focus {border-bottom: 1px solid #ED1C24;}
 a.df {color: #00A293;}
 a.df:hover, a.df:focus {border-bottom: 1px solid #00A293;}
 
+blockquote {
+	display: block;
+  margin: 1.5em 0;
+  padding: 0 0.8em;
+  border-left: 5px solid #EAEAFF;
+  color: #667DA9;
+}
+
 img {
 	max-width: 100%;
 	display: block;
