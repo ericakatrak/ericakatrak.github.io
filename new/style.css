@@ -31,6 +31,7 @@ body {
 	background-position: 0 0;
 	animation: border 5s linear infinite;
 	border: 2.5vw solid #fff;
+	color: #fff29e;
 }
 body:after {
 	content: "";
@@ -40,6 +41,14 @@ body:after {
 	right: 0.6vw;
 	bottom: 0.6vw;
 	left: 0.6vw;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1.5vw;
+	position: relative;
+	z-index: 10;
 }
 
 h1 {
@@ -60,11 +69,4 @@ a:hover, a:focus {
 	background-image: linear-gradient(to bottom, transparent 0, #DCF6F9 0);
   background-position: 0 0.8em;
   background-repeat: no-repeat;
-}
-
-section {
-	max-width: 1300px;
-	margin: 0 auto;
-	padding: 8% 24%;
-	clear: both;
 }
