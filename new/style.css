@@ -30,16 +30,16 @@ body {
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 5s linear infinite;
-	border: 2.5vw solid #303239;
+	border: 2.5vw solid #fff;
 }
 body:after {
 	content: "";
-	background: #303239;
+	background: #fff;
 	position: absolute;
-	top: 0.5vw;
-	right: 0.5vw;
-	bottom: 0.5vw;
-	left: 0.5vw;
+	top: 0.6vw;
+	right: 0.6vw;
+	bottom: 0.6vw;
+	left: 0.6vw;
 }
 
 h1 {
