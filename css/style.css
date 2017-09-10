@@ -34,12 +34,12 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #FFF;
-	/*background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
+	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
 	background-position: 0 0;
-	animation: border 5s linear infinite;*/
-	border: 2.5vw solid #fff;
+	animation: border 5s linear infinite;
+	/*border: 2.5vw solid #fff;*/
+	color: #FFF;
 }
 
 body:after {
@@ -48,10 +48,10 @@ body:after {
 	background-size: 200% 200%;
 	background-position: 0 0;
 	position: absolute;
-	/*top: 2.5vw;
+	top: 2.5vw;
 	right: 2.5vw;
 	bottom: 2.5vw;
-	left: 2.5vw;*/
+	left: 2.5vw;
 }
 
 section {
