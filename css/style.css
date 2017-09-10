@@ -34,7 +34,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	/*background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
+	/*background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 5s linear infinite;
@@ -44,10 +44,11 @@ body {
 
 body:after {
 	content: "";
-	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
+background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
+
 	background-size: 200% 200%;
 	background-position: 0 0;
-	animation: border 20s linear infinite;
+	animation: border 60s linear infinite;
 	position: absolute;
 	top: 2.5vw;
 	right: 2.5vw;
@@ -76,7 +77,7 @@ h1 {
   -webkit-background-clip: text;*/
 
   /* what will show through the text */
-	/*background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
+	/*background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
 	background-size: 200% 200%;
 	background-position: 0 0;*/
 
