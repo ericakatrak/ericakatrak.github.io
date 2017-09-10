@@ -1,6 +1,7 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
 	box-sizing: border-box;
+	background: #F8F8FF;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -16,11 +17,14 @@ html {
 /* Common Style */
 
 body {
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.5;
 	color: #52526C;
+	background: #fff;
+	border: 100px solid #F8F8FF;
+	height: 100vh;
 }
 
 h1 {
@@ -28,26 +32,6 @@ h1 {
   font-weight: 900;
   line-height: 1.25;
   margin-bottom: 15px;
-}
-  .intro h1 {
-    font-size: 2em;
-    font-weight: 400;
-    font-style: italic;
-    font-family: "PT Serif", serif;
-    margin-bottom: 1em;
-  }
-h2 {
-  font-weight: 400;
-  font-style: italic;
-  font-family: "PT Serif", serif;
-  margin-bottom: 2em;
-  font-size: 1.2em;
-}
-h3 {
-  font-size: .85em;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 p {margin-bottom: 1.5em;}
@@ -63,193 +47,9 @@ a:hover, a:focus {
   background-repeat: no-repeat;
 }
 
-img {
-	max-width: 100%;
-	display: block;
-}
-img ~ img {margin-top: 14px;}
-
-strong {font-weight: 600;}
-
-blockquote {
-	display: block;
-  margin: 1.5em 0;
-  padding: 0 0.8em;
-  border-left: 5px solid #EAEAFF;
-  color: #667DA9;
-}
-
-cite {
-	color: #A2B3D0;
-	font-style: normal;
-	padding: 0 0 0 8px;
-}
-
-.lt {color: #A2B3D0;}
-
-article {font-size: 100%;}
-
 section {
 	max-width: 1300px;
 	margin: 0 auto;
 	padding: 8% 24%;
 	clear: both;
-}
-  section.intro {text-align: center;}
-
-footer {
-	font-size: .85em;
-	text-align: center;
-	margin: 4em;
-	clear: both;
-	padding: 0;
-}
-footer a {color: #A2B3D0;}
-footer a:hover, footer a:focus {
-  background-image: none;
-  color: #667DA9;
-}
-
-/* Image Grids */
-
-.grid {
-	width: 100%;
-	max-width: 1200px;
-	list-style: none;
-	margin: 0 auto;
-	padding: 0;
-}
-
-.grid li {
-	display: block;
-	float: left;
-	margin: .5%;
-	width: 49%;
-	width: -webkit-calc(98% / 2);
-	width: calc(98% / 2);
-	opacity: 0;
-}
-  .grid-full li {
-  	width: 99%;
-  	width: -webkit-calc(99% / 1);
-  	width: calc(99% / 1);
-  	float: none;
-  }
-
-.grid li.shown,
-.no-js .grid li,
-.no-cssanimations .grid li {
-	opacity: 1;
-}
-
-.grid li a,
-.grid li img {
-	outline: none;
-	border: none;
-	display: block;
-	max-width: 100%;
-	overflow: hidden;
-	padding: 0;
-}
-
-.grid li figure {
-	display: block;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background: -webkit-linear-gradient(left, rgba(64, 37, 137, 0.8), rgba(16, 29, 73, 0.8));
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	opacity: 0;
-	transition: all 0.4s ease;
-}
-
-.grid li h3 {
-  color: #fff;
-  font-size: 1.2em;
-  font-weight: 600;
-  text-align: center;
-  padding: 14%;
-  position: relative;
-  top: 50%;
-	-ms-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
-.grid li:hover figure {opacity: 1;}
-
-.grid.fade li.animate {
-	-webkit-animation: fadeIn 0.65s ease forwards;
-	animation: fadeIn 0.65s ease forwards;
-}
-
-@-webkit-keyframes fadeIn {
-	0% { }
-	100% { opacity: 1; }
-}
-
-@keyframes fadeIn {
-	0% { }
-	100% { opacity: 1; }
-}
-
-/* Dribbble Stream */
-.shots {
-	overflow: hidden;
-	height: auto !important;
-}
-
-.shots li {
-	opacity: 1;
-	width: 24%;
-	width: -webkit-calc(96% / 4);
-	width: calc(96% / 4);
-}
-
-/* Back Link */
-a.back {
-	display: block;
-	overflow: hidden;
-	background: url(/img/back.svg) no-repeat center center;
-	text-indent: 200%;
-	color: transparent;
-	border: none;
-	outline: none;
-	width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 4em;
-  opacity: 0.5;
-	transition: all 0.4s ease;
-}
-a.back:hover {
-	opacity: 1.0;
-	cursor: pointer;
-}
-
-/* Media Queries */
-@media screen and (max-width: 500px) {
-	section, section.intro {
-		padding: 8% 6%;
-	}
-	.grid li {
-		margin: 0 0 .5%;
-		width: 100%;
-		width: -webkit-calc(100% / 1);
-		width: calc(100% / 1);
-	}
-	a.back {
-    position: relative;
-    margin: 0 auto;
-    padding: 2em;
-  }
-}
-@media screen and (max-height: 30.5em) {
-	.overlay nav {height: 70%;}
-	.overlay ul li {min-height: 34px;}
 }
