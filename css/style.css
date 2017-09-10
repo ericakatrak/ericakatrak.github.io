@@ -20,7 +20,8 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #222;
+	color: #2b323a;
+	background: #F7F8FC;
 }
 
 h1 {
@@ -37,10 +38,10 @@ h2 {
 p {margin-bottom: 1.5em;}
 
 a {
-	color: #999;
+	color: #bbc1c7;
 	text-decoration: none;
 }
-a:hover, a:focus {border-bottom: 1px solid #999;}
+a:hover, a:focus {border-bottom: 1px solid #bbc1c7;}
 
 a.prefer {
 	color: #ED1C24;
@@ -62,6 +63,11 @@ section {
 	margin: 0;
 	padding: 6% 8%;
 	clear: both;
+}
+
+section.dk {
+	background: #2b323a;
+	color: #bbc1c7;
 }
 
 footer {
