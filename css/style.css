@@ -188,6 +188,7 @@ a.back:hover {
 		padding: 8% 6%;
 	}
 	.grid li {
+		margin: .5%;
 		width: 49%;
 		width: -webkit-calc(98% / 2);
 		width: calc(98% / 2);
