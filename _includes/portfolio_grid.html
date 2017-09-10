@@ -1,10 +1,13 @@
   <ul class="grid fade" id="grid">
+    <li>
+      <img src="img/work/adobe1.png" alt="Adobe" />
+    </li>
     {% for post in site.posts %}
       <li>
         <a href="{{ post.url }}">
           <img src="img/work/{{ post.img }}" alt="{{ post.alt }}" />
           <figure>
-            <h2>{{ post.title }}</h2>
+            <h3>{{ post.title }}</h3>
           </figure>
         </a>
       </li>

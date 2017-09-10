@@ -18,40 +18,58 @@ html {
 body {
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.5;
-	color: #2b323a;
-	background: #FFF;
-	padding: .5%;
+	color: #52526C;
 }
 
 h1 {
-	font-family: "Quicksand", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2.5em;
-  font-weight: 400;
+  font-size: 1.75em;
+  font-weight: 900;
   line-height: 1.25;
-  margin-bottom: 1.5em;
+  margin-bottom: 15px;
 }
+  .intro h1 {
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "PT Serif", serif;
+    margin-bottom: 1em;
+  }
 h2 {
-  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Serif", serif;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+}
+h3 {
+  font-size: .85em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 p {margin-bottom: 1.5em;}
 
 a {
-	color: #bbc1c7;
+	color: #667DA9;
 	text-decoration: none;
+	padding: 0 4px;
 }
-a:hover, a:focus {border-bottom: 1px solid #bbc1c7;}
-
-a.prefer {
-	color: #ED1C24;
-	/*color: #FF3951;*/
+a:hover, a:focus {
+	background-image: linear-gradient(to bottom, transparent 0, #DCF6F9 0);
+  background-position: 0 0.8em;
+  background-repeat: no-repeat;
 }
-a.prefer:hover, a.prefer:focus {border-bottom: 1px solid #ED1C24;}
 
-a.df {color: #00A293;}
-a.df:hover, a.df:focus {border-bottom: 1px solid #00A293;}
+img {
+	max-width: 100%;
+	display: block;
+}
+img ~ img {margin-top: 14px;}
+
+strong {font-weight: 600;}
 
 blockquote {
 	display: block;
@@ -61,30 +79,42 @@ blockquote {
   color: #667DA9;
 }
 
-img {
-	max-width: 100%;
-	display: block;
+cite {
+	color: #A2B3D0;
+	font-style: normal;
+	padding: 0 0 0 8px;
 }
-img ~ img {margin-top: 14px;}
+
+.lt {color: #A2B3D0;}
+
+article {font-size: 100%;}
 
 section {
-	max-width: 950px;
-	margin: 0;
-	padding: 6% 8%;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 8% 24%;
 	clear: both;
 }
+  section.intro {text-align: center;}
 
 footer {
-	opacity: .5;
-	margin: 3% 8%;
+	font-size: .85em;
+	text-align: center;
+	margin: 4em;
 	clear: both;
 	padding: 0;
+}
+footer a {color: #A2B3D0;}
+footer a:hover, footer a:focus {
+  background-image: none;
+  color: #667DA9;
 }
 
 /* Image Grids */
 
 .grid {
 	width: 100%;
+	max-width: 1200px;
 	list-style: none;
 	margin: 0 auto;
 	padding: 0;
@@ -94,13 +124,12 @@ footer {
 	display: block;
 	float: left;
 	margin: .5%;
-	width: 30%;
-	width: -webkit-calc(97% / 3);
-	width: calc(97% / 3);
+	width: 49%;
+	width: -webkit-calc(98% / 2);
+	width: calc(98% / 2);
 	opacity: 0;
 }
-
-	.grid-full li {
+  .grid-full li {
   	width: 99%;
   	width: -webkit-calc(99% / 1);
   	width: calc(99% / 1);
@@ -128,7 +157,7 @@ footer {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background: #2b323a;
+	background: -webkit-linear-gradient(left, rgba(64, 37, 137, 0.8), rgba(16, 29, 73, 0.8));
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -137,8 +166,10 @@ footer {
 	transition: all 0.4s ease;
 }
 
-.grid li h2 {
+.grid li h3 {
   color: #fff;
+  font-size: 1.2em;
+  font-weight: 600;
   text-align: center;
   padding: 14%;
   position: relative;
@@ -155,6 +186,29 @@ footer {
 	animation: fadeIn 0.65s ease forwards;
 }
 
+@-webkit-keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+
+/* Dribbble Stream */
+.shots {
+	overflow: hidden;
+	height: auto !important;
+}
+
+.shots li {
+	opacity: 1;
+	width: 24%;
+	width: -webkit-calc(96% / 4);
+	width: calc(96% / 4);
+}
+
 /* Back Link */
 a.back {
 	display: block;
@@ -169,7 +223,7 @@ a.back {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 2em;
+  padding: 4em;
   opacity: 0.5;
 	transition: all 0.4s ease;
 }
@@ -178,41 +232,13 @@ a.back:hover {
 	cursor: pointer;
 }
 
-
-@-webkit-keyframes fadeIn {
-	0% { }
-	100% { opacity: 1; }
-}
-
-@keyframes fadeIn {
-	0% { }
-	100% { opacity: 1; }
-}
-
 /* Media Queries */
-
-@media (max-width:320px) { 
-	/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-	section {
+@media screen and (max-width: 500px) {
+	section, section.intro {
 		padding: 8% 6%;
 	}
 	.grid li {
-		width: 100%;
-		width: -webkit-calc(100% / 1);
-		width: calc(100% / 1);
-	}
-	a.back {
-    position: relative;
-    margin: 0 auto;
-    padding: 2em;
-  } 
-}
-@media (max-width:480px) { 
-	/* smartphones, Android phones, landscape iPhone */
-	section {
-		padding: 8% 6%;
-	}
-	.grid li {
+		margin: 0 0 .5%;
 		width: 100%;
 		width: -webkit-calc(100% / 1);
 		width: calc(100% / 1);
@@ -222,4 +248,8 @@ a.back:hover {
     margin: 0 auto;
     padding: 2em;
   }
+}
+@media screen and (max-height: 30.5em) {
+	.overlay nav {height: 70%;}
+	.overlay ul li {min-height: 34px;}
 }
