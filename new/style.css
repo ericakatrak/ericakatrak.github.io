@@ -37,10 +37,10 @@ body:after {
 	content: "";
 	background: #fff;
 	position: absolute;
-	top: 0.6vw;
-	right: 0.6vw;
-	bottom: 0.6vw;
-	left: 0.6vw;
+	top: 4vw;
+	right: 4vw;
+	bottom: 4vw;
+	left: 4vw;
 }
 
 section {
@@ -52,21 +52,33 @@ section {
 }
 
 h1 {
-  font-size: 1.75em;
-  font-weight: 900;
-  line-height: 1.25;
-  margin-bottom: 15px;
+	font-size: 4vw;
+	line-height: 5vw;
+	color: #d5d8e3;
+	font-weight: 700;
+	font-style: italic;
+	font-family: "Open Sans", sans-serif;
+	padding-left: 1.35vw;
+	letter-spacing: 0.25vw;
+	animation: fade 2s ease-out -.65s;
 }
 
-p {margin-bottom: 1.5em;}
+p {
+	font-size: 1vw;
+	line-height: 2vw;
+	color: #d5d8e3;
+	font-weight: 700;
+	font-style: italic;
+	font-family: "Open Sans", sans-serif;
+	padding-left: 1.35vw;
+	letter-spacing: 0.25vw;
+	animation: fade 2s ease-out -.65s;
+}
 
 a {
-	color: #667DA9;
+	color: #d5d8e3;
 	text-decoration: none;
-	padding: 0 4px;
 }
 a:hover, a:focus {
-	background-image: linear-gradient(to bottom, transparent 0, #DCF6F9 0);
-  background-position: 0 0.8em;
-  background-repeat: no-repeat;
+
 }
