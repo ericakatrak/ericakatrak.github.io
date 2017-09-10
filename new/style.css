@@ -46,10 +46,10 @@ body:after {
 section {
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 1.5vw;
+	padding-bottom: 1vw;
 	position: relative;
 	z-index: 10;
-	max-width: 80vw;
+	max-width: 60vw;
 }
 
 h1 {
@@ -57,10 +57,10 @@ h1 {
 	line-height: 5vw;
 	color: #d5d8e3;
 	font-weight: 700;
-	font-style: italic;
-	font-family: "Open Sans", sans-serif;
-	letter-spacing: 0.25vw;
+	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
+	padding-bottom: 1vw;
+
 }
 
 p {
@@ -77,7 +77,29 @@ p {
 a {
 	color: #d5d8e3;
 	text-decoration: none;
+	white-space: nowrap;
+position: relative;
 }
+
+a:after {
+	content: '';
+width: 0;
+height: 2px;
+background: #d5d8e3;
+position: absolute;
+bottom: -5px;
+left: 0;
+-webkit-transition: width 0.25s ease;
+-moz-transition: width 0.25s ease;
+-ms-transition: width 0.25s ease;
+-o-transition: width 0.25s ease;
+transition: width 0.25s ease
+}
+
 a:hover, a:focus {
 
+}
+
+a:hover:after {
+	width: 100%;
 }
