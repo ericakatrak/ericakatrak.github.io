@@ -77,7 +77,8 @@ a {
 	color: #d5d8e3;
 	text-decoration: none;
 	white-space: nowrap;
-position: relative;
+	position: relative;
+	margin .5vw;
 }
 
 a:after {
