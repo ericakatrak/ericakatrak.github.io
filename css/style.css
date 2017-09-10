@@ -34,11 +34,11 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
+	/*background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 5s linear infinite;
-	/*border: 2.5vw solid #fff;*/
+	border: 2.5vw solid #fff;*/
 	color: #FFF;
 }
 
@@ -47,6 +47,7 @@ body:after {
 	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
 	background-position: 0 0;
+	animation: border 20s linear infinite;
 	position: absolute;
 	top: 2.5vw;
 	right: 2.5vw;
