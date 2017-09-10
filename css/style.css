@@ -60,7 +60,7 @@ img ~ img {margin-top: 14px;}
 section {
 	max-width: 900px;
 	margin: 0;
-	padding: 8%;
+	padding: 6% 8%;
 	clear: both;
 }
 
