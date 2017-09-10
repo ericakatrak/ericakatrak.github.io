@@ -58,7 +58,7 @@ h1 {
 	font-weight: 700;
 	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
-	padding-bottom: 2vw;
+	padding-bottom: 2.2vw;
 	
 	/* if we can clip, do it */
   /*-webkit-text-fill-color: transparent;
@@ -82,7 +82,7 @@ p {
 	font-family: "Open Sans", sans-serif;
 	letter-spacing: 0.1vw;
 	animation: fade 2s ease-out -.65s;
-	padding-bottom: 2vw;
+	padding-bottom: 1.8vw;
 }
 
 a {
