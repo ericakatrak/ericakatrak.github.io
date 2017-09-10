@@ -76,7 +76,6 @@ p {
 	letter-spacing: 0.1vw;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
-	opacity: .5;
 }
 
 p:last-child {padding-bottom: 0;}
