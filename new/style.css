@@ -29,9 +29,9 @@ body {
 	/*background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
 	background-position: 0 0;
-	animation: border 5s linear infinite;*/
-	border: 2.5vw solid #fff;
-	color: #222;
+	animation: border 5s linear infinite;
+	border: 2.5vw solid #fff;*/
+	color: #333;
 }
 body:after {
 	content: "";
@@ -85,7 +85,7 @@ p {
 }
 
 a {
-	color: #222;
+	color: #333;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -98,7 +98,7 @@ a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #222;
+	background: #333;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
