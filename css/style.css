@@ -16,6 +16,15 @@ html {
 
 /* Common Style */
 
+::-moz-selection {
+	background: #3C3C43;
+	color: #F8F8FF;
+}
+::selection {
+	background: #3C3C43;
+	color: #F8F8FF;
+}
+
 body {
 	display: flex;
 	align-items: center;
