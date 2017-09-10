@@ -17,14 +17,22 @@ html {
 /* Common Style */
 
 body {
-	font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.5;
-	color: #52526C;
-	background: #fff;
-	border: 100px solid #F8F8FF;
-	height: 100vh;
+
+	
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: radial-gradient(#fff29e, #ff4444, #5a5ae6);
+	background-size: 200% 200%;
+	background-position: 0 0;
+	animation: border 5s linear infinite;
+	border: 2.5vw solid #303239;
 }
 
 h1 {
