@@ -52,6 +52,7 @@ table {
 
 body {
     background-color: #131314;
+    font-family: Helvetica;
 }
 
 a {
@@ -70,14 +71,12 @@ a:hover {
 }
 
 h1 {
-    font-family: "AvenirLT-Roman", Helvetica;
     font-weight: 500;
     line-height: 1.2em;
     color: #131314;
 }
 
 h2 {
-    font-family:"Maison Mono Light", "Consolas", monospace; font-weight:200; font-style:normal;
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 15px;
@@ -86,14 +85,12 @@ h2 {
 }
 
 h3 {
-    font-family: "AvenirLT-Heavy", Helvetica;
     font-size: 16px;
     color: #131314;
 
 }
 
 h4 {
-    font-family: "AvenirLT-Roman", Helvetica;
     font-size: 2.3em;
     font-weight: 500;
     line-height: 1.3em;
@@ -104,7 +101,6 @@ h4 {
     margin-top: 1em;
 }
 p {
-    font-family: "Maison Mono Light", "Consolas", monospace; font-weight:200; font-style:normal;
     font-weight: 100;
     font-size: 13px;
     line-height: 21px;
@@ -113,7 +109,6 @@ p {
 }
 
 ul {
-    font-family: "Maison Mono Light", "Consolas" , monospace; font-weight:200; font-style:normal;
     font-weight: 100;
     font-size: 13px;
     line-height: 21px;
@@ -121,7 +116,6 @@ ul {
 
 nav a {
     text-decoration: none;
-    font-family: "Maison Mono Light", "Consolas", monospace; font-weight:200; font-style:normal;
     font-weight: 100;
     font-size: 12px;
 }
@@ -225,7 +219,6 @@ h3 {
 
 ul {
     text-decoration: none;
-    font-family: "Maison Mono Light", "Consolas" , monospace; font-weight:200; font-style:normal;
     font-size: 12px;
     float: right;   
 }
@@ -298,28 +291,8 @@ ul {
     width: 295px;
 }
 
-/* Footer */
-footer {
-   position:fixed;
-   bottom:0px;
-   height:60px;
-   width: 960px;
-   margin: 0 auto;
-}
-
-/* IE 6 */
-* html #footer {
-   position:absolute;
-   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
-}
-
 
 /* Images */
-footer img {
-    width: 3%;
-    min-width: 15px;
-    padding-left: 0px;
-}
 
 .first {
   -webkit-transition:all 0.7s ease-out;
@@ -432,7 +405,6 @@ footer img {
 
     ul {
         text-decoration: none;
-        font-family: "Maison Mono Light", "Consolas", monospace; font-weight:200; font-style:normal;
         font-size: 12px;
         float: left;
         clear: left;
@@ -493,7 +465,6 @@ footer img {
 
     ul {
         text-decoration: none;
-        font-family: "Maison Mono Light", "Consolas", monospace; font-weight:200; font-style:normal;
         font-size: 12px;
         float: left;
         padding-top: 20px;  
@@ -568,7 +539,6 @@ footer img {
 
     ul {
         text-decoration: none;
-        font-family: "Maison Mono Light", "Consolas", monospace; font-weight:200; font-style:normal;
         font-size: 12px;
         float: left;
         padding-top: 20px;  
