@@ -253,3 +253,45 @@ a.back:hover {
 	.overlay nav {height: 70%;}
 	.overlay ul li {min-height: 34px;}
 }
+
+
+
+
+/* NEW */
+
+.vertical-center {
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.vertical-center a {
+	background: 0 0;
+color: #5c5c5c;
+display: inline-block;
+vertical-align: middle;
+cursor: pointer;
+text-decoration: none;
+transition: color .9s cubic-bezier(.19, 1, .22, 1);
+}
+
+.vertical-center a:after {
+	content: '';
+position: absolute;
+bottom: 1px;
+left: 0;
+width: 100%;
+height: 1px;
+background: #B0B0B0;
+transform: scaleX(0);
+transform-origin: right;
+transition: transform .9s cubic-bezier(.19, 1, .22, 1);
+}
+
+.vertical-center a:hover:after {
+	transform: scaleX(1);
+transform-origin: left;
+}
