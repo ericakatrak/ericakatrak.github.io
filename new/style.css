@@ -68,8 +68,8 @@ p {
 	color: #d5d8e3;
 	font-weight: 700;
 	font-style: italic;
-	font-family: "Open Sans", sans-serif;
-	letter-spacing: 0.25vw;
+	font-family: "PT Sans", sans-serif;
+	letter-spacing: 0.2vw;
 	animation: fade 2s ease-out -.65s;
 }
 
@@ -83,17 +83,17 @@ a {
 
 a:after {
 	content: '';
-width: 0;
-height: 2px;
-background: #d5d8e3;
-position: absolute;
-bottom: -5px;
-left: 0;
--webkit-transition: width 0.25s ease;
--moz-transition: width 0.25s ease;
--ms-transition: width 0.25s ease;
--o-transition: width 0.25s ease;
-transition: width 0.25s ease
+	width: 0;
+	height: 2px;
+	background: #d5d8e3;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	-webkit-transition: width 0.25s ease;
+	-moz-transition: width 0.25s ease;
+	-ms-transition: width 0.25s ease;
+	-o-transition: width 0.25s ease;
+	transition: width 0.25s ease
 }
 
 a:hover, a:focus {
