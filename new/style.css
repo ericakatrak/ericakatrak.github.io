@@ -25,21 +25,22 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
+	background: #F9FAFE;
+	/*background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
 	background-position: 0 0;
-	animation: border 5s linear infinite;
+	animation: border 5s linear infinite;*/
 	border: 2.5vw solid #fff;
-	color: #d5d8e3;
+	color: #222;
 }
 body:after {
 	content: "";
 	background: #fff;
 	position: absolute;
-	top: .8vw;
-	right: .8vw;
-	bottom: .8vw;
-	left: .8vw;
+	top: 2.5vw;
+	right: 2.5vw;
+	bottom: 2.5vw;
+	left: 2.5vw;
 }
 
 section {
@@ -60,16 +61,16 @@ h1 {
 	padding-bottom: 2vw;
 	
 	/* if we can clip, do it */
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  /*-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;*/
 
   /* what will show through the text */
-	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
+	/*background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
-	background-position: 0 0;
+	background-position: 0 0;*/
 
   /* fallback text color */
-  color: #d5d8e3;
+  color: #222;
 
 }
 
@@ -85,7 +86,7 @@ p {
 }
 
 a {
-	color: #d5d8e3;
+	color: #222;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -98,7 +99,7 @@ a:after {
 	content: '';
 	width: 0;
 	height: 2px;
-	background: #d5d8e3;
+	background: #222;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
@@ -108,6 +109,12 @@ a:after {
 	-o-transition: width 0.25s ease;
 	transition: width 0.25s ease
 }
+
+a.prefer {color: #FF3951;}
+a.prefer:after {background: #FF3951;}
+a.df {color: #00A293;}
+a.df:after {background: #00A293;}
+
 
 a:hover:after {
 	width: 100%;
