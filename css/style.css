@@ -112,6 +112,30 @@ footer {
 	animation: fadeIn 0.65s ease forwards;
 }
 
+/* Back Link */
+a.back {
+	display: block;
+	overflow: hidden;
+	background: url(/img/back.svg) no-repeat center center;
+	text-indent: 200%;
+	color: transparent;
+	border: none;
+	outline: none;
+	width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 4em;
+  opacity: 0.5;
+	transition: all 0.4s ease;
+}
+a.back:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+
 @-webkit-keyframes fadeIn {
 	0% { }
 	100% { opacity: 1; }
@@ -120,19 +144,6 @@ footer {
 @keyframes fadeIn {
 	0% { }
 	100% { opacity: 1; }
-}
-
-/* Dribbble Stream */
-.shots {
-	overflow: hidden;
-	height: auto !important;
-}
-
-.shots li {
-	opacity: 1;
-	width: 24%;
-	width: -webkit-calc(96% / 4);
-	width: calc(96% / 4);
 }
 
 /* Media Queries */
