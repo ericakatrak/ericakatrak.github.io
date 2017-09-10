@@ -73,17 +73,6 @@ h1 {
 
 }
 
-h2 {
-	font-size: 1.2vw;
-	line-height: 2vw;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-family: "Open Sans", sans-serif;
-	letter-spacing: 0.1vw;
-	animation: fade 2s ease-out -.65s;
-	color: #F5F7FB;
-}
-
 p {
 	font-size: 1.2vw;
 	line-height: 2vw;
@@ -101,8 +90,9 @@ a {
 	white-space: nowrap;
 	position: relative;
 	margin .5vw;
-	margin: 1vh;
 }
+
+a.more { margin: 1vh; }
 
 a:after {
 	content: '';
