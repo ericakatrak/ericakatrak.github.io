@@ -54,22 +54,33 @@ section {
 h1 {
 	font-size: 4vw;
 	line-height: 5vw;
-	color: #d5d8e3;
 	font-weight: 700;
 	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
-	padding-bottom: 1vw;
+	padding-bottom: 2vw;
+	
+	/* if we can clip, do it */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  /* what will show through the text
+      ~ or ~
+     what will be the background of that element */
+  background: whatever;
+
+  /* fallback text color */
+  color: #d5d8e3;
 
 }
 
 p {
-	font-size: 1vw;
+	font-size: 1.2vw;
 	line-height: 2vw;
 	color: #d5d8e3;
 	font-weight: 700;
 	font-style: italic;
 	font-family: "Open Sans", sans-serif;
-	letter-spacing: 0.2vw;
+	letter-spacing: 0.1vw;
 	animation: fade 2s ease-out -.65s;
 }
 
