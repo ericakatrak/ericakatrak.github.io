@@ -54,18 +54,6 @@ body {
     background-color: #131314;
 }
 
-/* Typography */
-.AvenirLT-Roman { 
-    font-family: "AvenirLT-Roman";
-    font-weight: normal;
-    font-style: normal;
-}
-.AvenirLT-Heavy { 
-    font-family: "AvenirLT-Heavy";
-    font-weight: normal;
-    font-style: normal;
-}
-
 a {
     text-decoration: none;
 }
@@ -73,11 +61,6 @@ a {
 a, span.link {
   color: #131314;
 }
-
-a:active, span.active {
-   /*color: #131314;*/
-}
-
 
 a:hover {
     color:#a5a6ac;
