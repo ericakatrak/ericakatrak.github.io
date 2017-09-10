@@ -63,10 +63,8 @@ h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 
-  /* what will show through the text
-      ~ or ~
-     what will be the background of that element */
-  background: whatever;
+  /* what will show through the text */
+	background-image: radial-gradient(#fff29e, #ff4444, #5a5ae6);
 
   /* fallback text color */
   color: #d5d8e3;
