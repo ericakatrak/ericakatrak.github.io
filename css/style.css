@@ -39,10 +39,13 @@ body {
 
 body:after {
 	content: "";
+	
+	/* future - invert the site as more content comes into play - move this to body, set :after to #FFF */
 	background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
+	
 	position: absolute;
 	top: 2.5vw;
 	right: 2.5vw;
@@ -65,6 +68,17 @@ h1 {
 	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2.2vw;
+	
+	 /* future - invert the site and use text clipping as more content comes into play
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+	background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
+	background-size: 200% 200%;
+	background-position: 0 0;
+	animation: border 60s linear infinite;
+
+  color: #FF3951;*/
 }
 
 p {
@@ -109,25 +123,18 @@ a:hover:after {width: 100%;}
 
 
 @keyframes fade {
-  0%, 75% { opacity: 0; }
-  100% { opacity: 1; } }
-@keyframes reveal {
-  0%, 50% {
-    opacity: 0;
-    width: 0; 
-  }
-  100% {
-    opacity: 1;
-    width: 100%; 
-   } 
+  0%, 75% {opacity: 0;}
+  100% {opacity: 1;} 
 }
+
 @keyframes border {
-  0% { background-position: 0 0; }
-  20% { background-position: 100% 0; }
-  40% { background-position: 100% 100%; }
-  60% { background-position: 0 100%; }
-  100% { background-position: 0 0; } 
+  0% {background-position: 0 0;}
+  20% {background-position: 100% 0;}
+  40% {background-position: 100% 100%;}
+  60% {background-position: 0 100%;}
+  100% {background-position: 0 0;} 
 }
+
 @media all and (max-width: 640px) {
 	section {max-width: 75vw;}
   h1 {
@@ -136,5 +143,5 @@ a:hover:after {width: 100%;}
     margin-bottom: 4vw;
 	}
 	p {font-size: 2.5vw; }
- }
+}
 
