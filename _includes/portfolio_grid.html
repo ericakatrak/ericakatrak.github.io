@@ -1,17 +1,12 @@
   <ul class="grid fade" id="grid">
-    <li><img src="img/work/adobeclustering.png" alt="clustering insights" /></li>
-    <li><img src="img/work/launchpad-startmess.png" alt="kickoff" /></li>
-    <li><img src="img/work/who-discussion.png" alt="discussing strategy" /></li>
-  </ul>
-  
-  <ul class="grid fade" id="grid">
-    <li><img src="img/work/hackthings.png" alt="hackathon art" /></li>
-    <li><img src="img/work/hackthings-compu.png" alt="hackathon art" /></li>
-    <li><img src="img/work/hackthings-wall.png" alt="hackathon art" /></li>
-    <li><img src="img/work/lookout-console.png" alt="Lookout console" /></li>
-    <li><img src="img/work/lookout-consolereports.png" alt="Lookout console" /></li>
-    <li><img src="img/work/launchpad.png" alt="experimental app" /></li>
-    <li><img src="img/work/who-provocation1.png" alt="provocation" /></li>
-    <li><img src="img/work/platform-provocation1.png" alt="provocation" /></li>
-    <li><img src="img/work/platform-provocation2.png" alt="provocation" /></li>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">
+          <img src="img/work/{{ post.img }}" alt="{{ post.alt }}" />
+          <figure>
+            <h3>{{ post.title }}</h3>
+          </figure>
+        </a>
+      </li>
+    {% endfor %}
   </ul>
