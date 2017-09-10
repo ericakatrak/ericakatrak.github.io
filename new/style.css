@@ -25,21 +25,21 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: radial-gradient(#FFEBED, #E5EAED, #E9F8FF);
+	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 5s linear infinite;
 	border: 2.5vw solid #fff;
-	color: #fff29e;
+	color: #d5d8e3;
 }
 body:after {
 	content: "";
 	background: #fff;
 	position: absolute;
-	top: 5vw;
-	right: 5vw;
-	bottom: 5vw;
-	left: 5vw;
+	top: .8vw;
+	right: .8vw;
+	bottom: .8vw;
+	left: .8vw;
 }
 
 section {
@@ -64,7 +64,7 @@ h1 {
   -webkit-background-clip: text;
 
   /* what will show through the text */
-	background-image: radial-gradient(#FFEBED, #E5EAED, #E9F8FF);
+	background-image: radial-gradient(#82D9FF, #3866B5, #FF6174);
 	background-size: 200% 200%;
 	background-position: 0 0;
 
@@ -76,7 +76,6 @@ h1 {
 p {
 	font-size: 1.2vw;
 	line-height: 2vw;
-	color: #d5d8e3;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-family: "Open Sans", sans-serif;
@@ -85,7 +84,7 @@ p {
 }
 
 a {
-	color: #d5d8e3;
+	color: #3866B5;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
