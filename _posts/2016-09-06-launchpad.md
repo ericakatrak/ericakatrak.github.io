@@ -12,7 +12,7 @@ alt: Launchpad
 </section>
 
 <ul class="grid fade grid-full" id="grid-full">
-  <li><img src="{{ site.url }}/img/work/launchpad.jpg" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/launchpad.png" alt="{{ page.alt }}" /></li>
 </ul>
 
 <section>
@@ -21,12 +21,12 @@ alt: Launchpad
 </section>
 
 <ul class="grid fade" id="grid">
-  <li><img src="{{ site.url }}/img/work/launchpad-startmess.jpg" alt="{{ page.alt }}" /></li>
-  <li><img src="{{ site.url }}/img/work/launchpad-biztype.jpg" alt="{{ page.alt }}" /></li>
-  <li><img src="{{ site.url }}/img/work/launchpad-payroll.jpg" alt="{{ page.alt }}" /></li>
-  <li><img src="{{ site.url }}/img/work/launchpad-sketches.jpg" alt="{{ page.alt }}" /></li>
-  <li><img src="{{ site.url }}/img/work/launchpad-experiment1.jpg" alt="{{ page.alt }}" /></li>
-  <li><img src="{{ site.url }}/img/work/launchpad-experiment2.jpg" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/launchpad-startmess.png" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/launchpad-biztype.png" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/launchpad-payroll.png" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/launchpad-sketches.png" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/launchpad-experiment1.png" alt="{{ page.alt }}" /></li>
+  <li><img src="{{ site.url }}/img/work/launchpad-experiment2.png" alt="{{ page.alt }}" /></li>
 </ul>  
 
 <section>
