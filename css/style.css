@@ -102,7 +102,7 @@ a {
 	margin .5vw;
 }
 
-.more a { margin: 1vh; }
+.more a {margin: 0 0 0 2vh;}
 
 a:after {
 	content: '';
