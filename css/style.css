@@ -76,15 +76,15 @@ h1 {
 	padding-bottom: 2.2vw;
 	
 	 /* future - invert the site and use text clipping as more content comes into play
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-background-clip: text;
 
 	background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
 
-  color: #FF3951;*/
+  	color: #FF3951;*/
 }
 
 p {
@@ -142,12 +142,14 @@ a:hover:after {width: 100%;}
 }
 
 @media all and (max-width: 640px) {
-	section {max-width: 75vw;}
+  section {max-width: 75vw;}
   h1 {
-    font-size: 6vw;
-    line-height: 7.5vw;
-    margin-bottom: 4vw;
-	}
-	p {font-size: 2.5vw; }
+    	font-size: 6vw;
+    	line-height: 7.5vw;
+    	margin-bottom: 4vw;
+  }
+  p {
+	font-size: 2.5vw;
+	line-height: 5vw;
+  }
 }
-
