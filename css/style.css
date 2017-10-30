@@ -47,7 +47,7 @@ body:after {
 	content: "";
 	
 	/* future - invert the site as more content comes into play - move this to body, set :after to #FFF */
-	background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
+	background-image: radial-gradient(#003054, #0640A3, #FF3951);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
@@ -79,7 +79,7 @@ h1 {
   	-webkit-text-fill-color: transparent;
   	-webkit-background-clip: text;
 
-	background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
+	background-image: radial-gradient(#003054, #0640A3, #FF3951);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
@@ -88,12 +88,10 @@ h1 {
 }
 
 p {
-	font-size: 1vw;
-	line-height: 2vw;
-	font-weight: 700;
-	text-transform: uppercase;
+	font-size: 1.15vw;
+	line-height: 2.15vw;
+	font-weight: 600;
 	font-family: "Open Sans", sans-serif;
-	letter-spacing: 0.1vw;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
 }
