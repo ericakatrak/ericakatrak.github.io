@@ -70,14 +70,14 @@ section {
 h1 {
 	font-size: 3vw;
 	line-height: 4vw;
-	font-weight: 700;
+	font-weight: 400;
 	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2.2vw;
 	
-	 /* future - invert the site and use text clipping as more content comes into play
-  	-webkit-text-fill-color: transparent;
-  	-webkit-background-clip: text;
+	/* future - invert the site and use text clipping as more content comes into play
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 
 	background-image: radial-gradient(#003054, #0640A3, #FF3951);
 	background-image: radial-gradient(#fff, #FFCDD3, #FF929E, #FF6B7D, #FF3951);
@@ -85,8 +85,10 @@ h1 {
 	background-position: 0 0;
 	animation: border 60s linear infinite;
 
-  	color: #FF3951;*/
+  color: #FF3951;*/
 }
+
+h1 span {font-weight: 700;}
 
 p {
 	font-size: 1.15vw;
