@@ -26,12 +26,12 @@ html {
 /* Common Style */
 
 ::-moz-selection {
-	background: #3C3C43;
-	color: #F8F8FF;
+	background: #3FC1CB;
+	color: #FFF;
 }
 ::selection {
-	background: #3C3C43;
-	color: #F8F8FF;
+	background: #3FC1CB;
+	color: #FFF;
 }
 
 body {
