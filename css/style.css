@@ -10,7 +10,7 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
 	box-sizing: border-box;
-	background: #FFF;
+	background: #00121F;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -43,7 +43,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	color: #FFF;
+	color: #00121F;
 	
 	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
 	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
@@ -57,15 +57,16 @@ body:after {
 	
 	/* future - invert the site as more content comes into play - move this to body, set :after to #FFF */
 	background-image: radial-gradient(#0B0220, #231B36, #6D6779);
+	background: #fff;
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
 	
 	position: absolute;
-	top: 2.5vw;
-	right: 2.5vw;
-	bottom: 2.5vw;
-	left: 2.5vw;
+	top: 0.5vw;
+	right: 0.5vw;
+	bottom: 0.5vw;
+	left: 0.5vw;
 }
 
 section {
@@ -111,7 +112,7 @@ p {
 p:last-child {padding-bottom: 0;}
 
 a {
-	color: #FFF;
+	color: #00121F;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -124,7 +125,7 @@ a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #FFF;
+	background: #00121F;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
