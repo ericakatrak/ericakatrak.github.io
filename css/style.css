@@ -56,7 +56,7 @@ body:after {
 	content: "";
 	
 	/* future - invert the site as more content comes into play - move this to body, set :after to #FFF */
-	background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
+	background-image: radial-gradient(#0B0220, #231B36, #6D6779);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
@@ -88,7 +88,7 @@ h1 {
 		
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-	background-image: radial-gradient(#63D0FF, #0640A3, #FF3951);
+	background-image: radial-gradient(#0B0220, #231B36, #6D6779);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
