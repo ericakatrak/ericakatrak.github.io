@@ -49,6 +49,9 @@ body {
 	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	font-feature-settings: "liga" on, "rlig" on, "kern" on;
+	
+	background: #333;
+	border: 2vw solid #F5F6F8;
 }
 
 body:after {
@@ -66,8 +69,6 @@ body:after {
 	right: 0.5vw;
 	bottom: 0.5vw;
 	left: 0.5vw;
-	
-	border: 2vw solid #F5F6F8;
 }
 
 section {
@@ -120,7 +121,7 @@ a {
 	margin .5vw;
 }
 
-a.more {margin: 0 0 0 2vh;}
+a.more {margin: 0 0 0 1vh;}
 
 a:hover {color: #b96e2b;}
 
