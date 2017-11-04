@@ -62,10 +62,10 @@ body:after {
 	animation: border 60s linear infinite;
 	
 	position: absolute;
-	top: 2vw;
-	right: 2vw;
-	bottom: 2vw;
-	left: 2vw;
+	top: 2.5vw;
+	right: 2.5vw;
+	bottom: 2.5vw;
+	left: 2.5vw;
 }
 
 section {
