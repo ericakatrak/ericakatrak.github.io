@@ -10,7 +10,6 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
 	box-sizing: border-box;
-	background: #00121F;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -26,11 +25,11 @@ html {
 /* Common Style */
 
 ::-moz-selection {
-	background: #3FC1CB;
+	background: #b96e2b;
 	color: #00121F;
 }
 ::selection {
-	background: #3FC1CB;
+	background: #b96e2b;
 	color: #00121F;
 }
 
@@ -43,7 +42,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	color: #00121F;
+	color: #333;
 	
 	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
 	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
@@ -56,7 +55,7 @@ body:after {
 	content: "";
 	
 	/* future - invert the site as more content comes into play - move this to body, set :after to #FFF */
-	background-image: radial-gradient(#0B0220, #231B36, #6D6779);
+	background-image: radial-gradient(#F5F6F8, #FFF);
 	background: #F5F6F8;
 	background-size: 200% 200%;
 	background-position: 0 0;
@@ -67,6 +66,8 @@ body:after {
 	right: 0.5vw;
 	bottom: 0.5vw;
 	left: 0.5vw;
+	
+	border: 2vw solid #F5F6F8;
 }
 
 section {
@@ -78,12 +79,12 @@ section {
 }
 
 h1 {
-	font-size: 3.1vw;
+	font-size: 3vw;
 	line-height: 4vw;
 	font-weight: 400;
 	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
-	padding-bottom: 2.2vw;
+	padding-bottom: 2vw;
 	
 	/* future - invert the site and use text clipping as more content comes into play
 		
@@ -102,8 +103,8 @@ h1 span {font-weight: 700;}
 
 p {
 	font-size: 1.15vw;
-	line-height: 2.15vw;
-	font-weight: 600;
+	line-height: 2.5vw;
+	font-weight: 400;
 	font-family: "Open Sans", sans-serif;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
@@ -112,15 +113,16 @@ p {
 p:last-child {padding-bottom: 0;}
 
 a {
-	color: #00121F;
+	color: #333;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
 	margin .5vw;
 }
-a:hover {color: #b96e2b;}
 
-.more a {margin: 0 0 0 2vh;}
+a.more {margin: 0 0 0 2vh;}
+
+a:hover {color: #b96e2b;}
 
 a:after {
 	content: '';
