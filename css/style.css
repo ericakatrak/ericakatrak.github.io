@@ -27,11 +27,11 @@ html {
 
 ::-moz-selection {
 	background: #3FC1CB;
-	color: #FFF;
+	color: #00121F;
 }
 ::selection {
 	background: #3FC1CB;
-	color: #FFF;
+	color: #00121F;
 }
 
 body {
@@ -57,7 +57,7 @@ body:after {
 	
 	/* future - invert the site as more content comes into play - move this to body, set :after to #FFF */
 	background-image: radial-gradient(#0B0220, #231B36, #6D6779);
-	background: #fff;
+	background: #F5F6F8;
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
@@ -118,6 +118,7 @@ a {
 	position: relative;
 	margin .5vw;
 }
+a:hover {color: #b96e2b;}
 
 .more a {margin: 0 0 0 2vh;}
 
@@ -125,7 +126,7 @@ a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #00121F;
+	background: #b96e2b;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
