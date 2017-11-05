@@ -57,18 +57,16 @@ body {
 body:after {
 	content: "";
 	
-	/* future - invert the site as more content comes into play - move this to body, set :after to #FFF */
 	background-image: radial-gradient(#F5F6F8, #FFF);
-	background: #F5F6F8;
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
 	
 	position: absolute;
-	top: 0.5vw;
-	right: 0.5vw;
-	bottom: 0.5vw;
-	left: 0.5vw;
+	top: 0.25vw;
+	right: 0.25vw;
+	bottom: 0.25vw;
+	left: 0.25vw;
 }
 
 section {
@@ -82,12 +80,12 @@ section {
 h1 {
 	font-size: 3vw;
 	line-height: 4vw;
-	font-weight: 400;
+	font-weight: 600;
 	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
 	
-	/* future - invert the site and use text clipping as more content comes into play
+	/* future - use text clipping?
 		
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -105,7 +103,7 @@ h1 span {font-weight: 700;}
 p {
 	font-size: 1.15vw;
 	line-height: 2.5vw;
-	font-weight: 400;
+	font-weight: 600;
 	font-family: "Open Sans", sans-serif;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
@@ -118,10 +116,9 @@ a {
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
-	margin .5vw;
 }
 
-a.more {margin: 0 0 0 1vh;}
+a.more {margin: 0 0 0 .5vh;}
 
 a:hover {color: #b96e2b;}
 
