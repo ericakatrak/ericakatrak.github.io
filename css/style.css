@@ -1,13 +1,4 @@
-/* color schemes 
-
-	background-image: radial-gradient(#200F39, #621F4C, #FF3951); coral to deep purple
-	background-image: radial-gradient(#63D0FF, #0640A3, #FF3951); coral to blue
-	background-image: radial-gradient(#fff, #FFCDD3, #FF929E, #FF6B7D, #FF3951); coral
-	background-image: radial-gradient(#FFD5AF, #FF3951, #FBB838); sunrise
-
-*/
-
-/* apply a natural box layout model to all elements, but allowing components to change */
+/* apply a natural box layout model to all elements, but allow components to change */
 html {box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit;}
 
