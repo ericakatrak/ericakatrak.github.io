@@ -25,12 +25,12 @@ html {
 /* Common Style */
 
 ::-moz-selection {
-	background: #b96e2b;
-	color: #00121F;
+	background: #C78B55;
+	color: #333;
 }
 ::selection {
-	background: #b96e2b;
-	color: #00121F;
+	background: #C78B55;
+	color: #333;
 }
 
 body {
@@ -50,18 +50,17 @@ body {
 	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	
+	background-image: radial-gradient(#333, #444);
+	background-size: 200% 200%;
+	background-position: 0 0;
+	animation: border 60s linear infinite;
 	background: #333;
 	border: 2vw solid #F5F6F8;
 }
 
 body:after {
 	content: "";
-	
-	background-image: radial-gradient(#F5F6F8, #FFF);
-	background-size: 200% 200%;
-	background-position: 0 0;
-	animation: border 60s linear infinite;
-	
+	background: #F5F6F8;
 	position: absolute;
 	top: 0.25vw;
 	right: 0.25vw;
@@ -80,7 +79,7 @@ section {
 h1 {
 	font-size: 3vw;
 	line-height: 4vw;
-	font-weight: 600;
+	font-weight: 400;
 	font-family: "Playfair Display", serif;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
