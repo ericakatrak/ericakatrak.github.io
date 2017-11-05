@@ -8,12 +8,8 @@
 */
 
 /* apply a natural box layout model to all elements, but allowing components to change */
-html {
-	box-sizing: border-box;
-}
-*, *:before, *:after {
-	box-sizing: inherit;
-}
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
 
 /* Mini Reset */
 * {
@@ -133,7 +129,7 @@ a:after {
 	-moz-transition: width 0.25s ease;
 	-ms-transition: width 0.25s ease;
 	-o-transition: width 0.25s ease;
-	transition: width 0.25s ease
+	transition: width 0.25s ease;
 }
 
 a:hover:after {width: 100%;}
