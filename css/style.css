@@ -32,7 +32,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	color: #303239;
+	color: #868a97;
 	
 	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
 	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
@@ -75,17 +75,13 @@ h1 {
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
 	
-	/* future - use text clipping?
-		
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-	background-image: radial-gradient(#303239, #999);
+	background-image: radial-gradient(#303239, #868a97, #aaadba);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
   color: #303239;
-  
-  */
 }
 
 h1 span {font-weight: 700;}
@@ -102,7 +98,7 @@ p {
 p:last-child {padding-bottom: 0;}
 
 a {
-	color: #303239;
+	color: #868a97;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
