@@ -13,11 +13,11 @@ html {box-sizing: border-box;}
 
 ::-moz-selection {
 	background: #EBAC4E;
-	color: #333;
+	color: #303239;
 }
 ::selection {
 	background: #EBAC4E;
-	color: #333;
+	color: #303239;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	color: #333;
+	color: #303239;
 	
 	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
 	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
@@ -37,8 +37,13 @@ body {
 	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	
-	background: #333;
+	background-image: radial-gradient(#303239, #868a97, #aaadba);
+	background-size: 200% 200%;
+	background-position: 0 0;
+	animation: border 5s linear infinite;
 	border: 2vw solid #F5F6F8;
+	
+	background: #303239;
 }
 
 body:after {
@@ -71,11 +76,11 @@ h1 {
 		
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-	background-image: radial-gradient(#333, #999);
+	background-image: radial-gradient(#303239, #999);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 60s linear infinite;
-  color: #333;
+  color: #303239;
   
   */
 }
@@ -94,7 +99,7 @@ p {
 p:last-child {padding-bottom: 0;}
 
 a {
-	color: #333;
+	color: #303239;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
