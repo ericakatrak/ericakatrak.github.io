@@ -1,5 +1,8 @@
 /* apply a natural box layout model to all elements, but allow components to change */
-html {box-sizing: border-box;}
+html {
+	box-sizing: border-box;
+	min-height: 100%;
+}
 *, *:before, *:after {box-sizing: inherit;}
 
 /* Mini Reset */
