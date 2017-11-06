@@ -45,8 +45,6 @@ body {
 	background-position: 0 0;
 	animation: border 5s linear infinite;
 	border: 2vw solid #F5F6F8;
-	
-	background: #303239;
 }
 
 body:after {
