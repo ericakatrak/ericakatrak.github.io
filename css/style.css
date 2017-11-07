@@ -40,7 +40,7 @@ body {
 	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	
-	background-image: radial-gradient(#303239, #868a97, #aaadba);
+	background-image: radial-gradient(#aaadba, #868a97, #303239);
 	background-size: 200% 200%;
 	background-position: 0 0;
 	animation: border 5s linear infinite;
@@ -70,15 +70,14 @@ h1 {
 	line-height: 4vw;
 	font-weight: 400;
 	font-family: "Playfair Display", serif;
-	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
 	
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-	background-image: radial-gradient(#303239, #868a97, #aaadba);
+	background-image: radial-gradient(#aaadba, #868a97, #303239);
 	background-size: 200% 200%;
 	background-position: 0 0;
-	animation: border 60s linear infinite;
+	animation: border 60s linear infinite, fade 2s ease-out -.65s;;
   color: #303239;
 }
 
