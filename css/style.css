@@ -51,10 +51,10 @@ body:after {
 	content: "";
 	background: #F5F6F8;
 	position: absolute;
-	top: 0.25vw;
-	right: 0.25vw;
-	bottom: 0.25vw;
-	left: 0.25vw;
+	top: 0.15vw;
+	right: 0.15vw;
+	bottom: 0.15vw;
+	left: 0.15vw;
 }
 
 section {
@@ -86,7 +86,7 @@ h1 span {font-weight: 700;}
 p {
 	font-size: 1.15vw;
 	line-height: 2.5vw;
-	font-weight: 600;
+	font-weight: 400;
 	font-family: "Open Sans", sans-serif;
 	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
