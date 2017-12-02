@@ -17,23 +17,21 @@ layout: newlayout
 	<ul class="shots"></ul>
 	
 	<script src="js/jquery.min.js"></script>
-  <script src="js/jribbble.min.js"></script>
   
-  <script>
-    $.jribbble.setToken('e13cda5204483d79bb9781d1da2c711d2b70db1e51ff5ec4d7e7e285f3766ca1');
-  </script>
-  
-  <script>
-	  $.jribbble.users('ericakatrak').shots({per_page: 36}).then(function(shots) {
-	  var html = [];
-	  
-	  shots.forEach(function(shot) {
-	    html.push('<li class="shots--shot">');
-	    html.push('<a href="' + shot.html_url + '" target="_blank">');
-	    html.push('<img src="' + shot.images.normal + '">');
-	    html.push('</a></li>');
-	  });
-	  
-	  $('.shots').html(html.join(''));
-		});
+  <script type='text/javascript'>
+$(function() {
+  $.getJSON('https://api.dribbble.com/v1/users/ericakatrak/shots?access_token=e13cda5204483d79bb9781d1da2c711d2b70db1e51ff5ec4d7e7e285f3766ca1&callback=?', function(resp) {
+    if (resp.data.length > 0) {							
+      $.each(resp.data.reverse(), function(i, val) {
+        $('#dribbble').prepend(
+          '<li class="box"><img src="'+val.images.normal+'" /></li>'
+        );
+      });
+    }
+    else {
+      $('#dribbble').append('<li>No shots.</li>');
+    }
+  });		   							    
+});
 </script>
+<ul id="dribbble"></ul> 
