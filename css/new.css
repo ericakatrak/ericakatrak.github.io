@@ -121,7 +121,7 @@ a:hover:after {width: 100%;}
     width: calc(50% - 40px);
 }
 
-.shotlits .shot-item .item {
+.shotlist .shot-item .item {
     border-radius: 5px;
     position: relative;
     visibility: hidden;
