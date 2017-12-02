@@ -99,6 +99,57 @@ a:after {
 a:hover:after {width: 100%;}
 
 
+/* SHOTS **************************************************/
+.shots-container {
+    margin-bottom: 2em;
+    min-height: 500px;
+}
+
+.shots-container .shot-item {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: calc(50% - 40px);
+}
+.shots-container .shot-item:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+.shots-container .shot-item .item {
+    border-radius: 5px;
+    position: relative;
+    visibility: hidden;
+    width: 100%;
+}
+
+
+/* ANIMATIONS ***********************************************/
+.fadeIn {
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+/* MEDIA QUERIES *******************************************/
+@media(max-width:750px) {
+    .shots-container .shot-item {
+        display: block;
+        width: calc(100% - 40px);
+    }
+    .shots-container .shot-item:hover {
+        transform: none;
+    }
+}
+
+
+
 @keyframes fade {
   0%, 75% {opacity: 0;}
   100% {opacity: 1;} 

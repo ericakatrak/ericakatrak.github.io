@@ -14,24 +14,17 @@ layout: newlayout
 		</p>
 	</section>
 	
-	<ul class="shots"></ul>
+	<div class="main-container">
+
+    <div class="profile"></div>
+    <ul class="shots-container"></ul>
+
+   </div>
 	
-	<script src="js/jquery.min.js"></script>
-  
-  <script type='text/javascript'>
-$(function() {
-  $.getJSON('https://api.dribbble.com/v1/users/ericakatrak/shots?access_token=e13cda5204483d79bb9781d1da2c711d2b70db1e51ff5ec4d7e7e285f3766ca1&callback=?', function(resp) {
-    if (resp.data.length > 0) {							
-      $.each(resp.data.reverse(), function(i, val) {
-        $('#dribbble').prepend(
-          '<li class="box"><img src="'+val.images.normal+'" /></li>'
-        );
-      });
-    }
-    else {
-      $('#dribbble').append('<li>No shots.</li>');
-    }
-  });		   							    
-});
-</script>
-<ul id="dribbble"></ul> 
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/jribbble.min.js"></script>
+  <script>
+    var dribbbleUsername = 'ericakatrak';
+    var shotsOnPage = '20';
+   </script>
+   <script src="js/script.js"></script>
