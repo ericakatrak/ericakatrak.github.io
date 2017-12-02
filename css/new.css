@@ -150,7 +150,7 @@ a:hover:after {width: 100%;}
 }
 
 
-
+/*
 @keyframes fade {
   0%, 75% {opacity: 0;}
   100% {opacity: 1;} 
@@ -163,6 +163,7 @@ a:hover:after {width: 100%;}
   60% {background-position: 0 100%;}
   100% {background-position: 0 0;} 
 }
+*/
 
 @media all and (max-width: 640px) {
   section {max-width: 75vw;}
