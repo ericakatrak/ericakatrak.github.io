@@ -1,22 +1,5 @@
 $.jribbble.setToken('06cf95687ae5bf5ea006aa0a1046f10561f68c2de1c6eb5be4a5b8bc298df717');
 
-$.jribbble.users(dribbbleUsername).then(function(user) {
-    var htmlProfile = [];
-    var htmlFooter = [];
-
-    htmlProfile.push('<a class="user-link" href="' + user.html_url + '" target="_blank">');
-    htmlProfile.push('<img class="avatar" src="' + user.avatar_url + '"></a>');
-    htmlProfile.push('<h2>' + user.name + '</h2>');
-    htmlProfile.push('<p>' + user.bio + '</p>');
-    htmlProfile.push('<p>' + user.location + '</p>');
-
-    htmlFooter.push('<p> &copy; Copyright ' + user.name + ' / ' + new Date().getFullYear() + ' / Powered by <a href="http://benched.site">Benched</a></p>' )
-
-    $('.profile').html(htmlProfile.join(''));
-    $('footer').html(htmlFooter.join(''));
-
-});
-
 $.jribbble.users(dribbbleUsername).shots({per_page: shotsOnPage}).then(function(shots) {
     var htmlShots = [];
 
@@ -27,12 +10,11 @@ $.jribbble.users(dribbbleUsername).shots({per_page: shotsOnPage}).then(function(
 		
         // See the Dribbble docs for all available shot properties.
         htmlShots.push('<li class="shot-item">');
-        htmlShots.push('<a href="' + shot.html_url + '">');
         htmlShots.push('<img class="item" src="' + img + '"/>')
-        htmlShots.push('</a></li>');
+        htmlShots.push('</li>');
     });
 
-    $('.shots-container').html(htmlShots.join(''));
+    $('.shotlist').html(htmlShots.join(''));
 });
 
 function showImages(el) {
