@@ -41,12 +41,12 @@ section.intro {
 	margin: 6vw auto;
 }
 
-section.shots {
+section.main-container {
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	max-width: 90vw;
-	margin: 0 auto 2vw;
+	margin: 0 auto;
 }
 
 h1 {
@@ -108,20 +108,24 @@ a:hover:after {width: 100%;}
 
 
 /* SHOTS **************************************************/
-.shotlist {
+.shots-container {
     margin-bottom: 2em;
     min-height: 500px;
 }
 
-.shotlist .shot-item {
+.shots-container .shot-item {
     display: inline-block;
     margin: 20px;
     position: relative;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     width: calc(50% - 40px);
 }
+.shots-container .shot-item:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
 
-.shotlist .shot-item .item {
+.shots-container .shot-item .item {
     border-radius: 5px;
     position: relative;
     visibility: hidden;
@@ -143,9 +147,13 @@ a:hover:after {width: 100%;}
 
 /* MEDIA QUERIES *******************************************/
 @media(max-width:750px) {
-    .shotlist .shot-item {
+
+    .shots-container .shot-item {
         display: block;
         width: calc(100% - 40px);
+    }
+    .shots-container .shot-item:hover {
+        transform: none;
     }
 }
 
