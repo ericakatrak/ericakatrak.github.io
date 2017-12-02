@@ -143,13 +143,9 @@ a:hover:after {width: 100%;}
 
 /* MEDIA QUERIES *******************************************/
 @media(max-width:750px) {
-
     .shots-container .shot-item {
         display: block;
         width: calc(100% - 40px);
-    }
-    .shots-container .shot-item:hover {
-        transform: none;
     }
 }
 
