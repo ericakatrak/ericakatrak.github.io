@@ -108,12 +108,12 @@ a:hover:after {width: 100%;}
 
 
 /* SHOTS **************************************************/
-.shots-container {
+.shotlist {
     margin-bottom: 2em;
     min-height: 500px;
 }
 
-.shots-container .shot-item {
+.shotlist .shotitem {
     display: inline-block;
     margin: 20px;
     position: relative;
@@ -121,7 +121,7 @@ a:hover:after {width: 100%;}
     width: calc(50% - 40px);
 }
 
-.shots-container .shot-item .item {
+.shotlist .shotitem .item {
     border-radius: 5px;
     position: relative;
     visibility: hidden;
@@ -143,7 +143,7 @@ a:hover:after {width: 100%;}
 
 /* MEDIA QUERIES *******************************************/
 @media(max-width:750px) {
-    .shots-container .shot-item {
+    .shotlist .shotitem {
         display: block;
         width: calc(100% - 40px);
     }

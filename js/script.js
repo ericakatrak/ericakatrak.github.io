@@ -10,12 +10,12 @@ $.jribbble.users(dribbbleUsername).shots({per_page: shotsOnPage}).then(function(
 		var img = (images.hidpi) ? images.hidpi : images.normal;
 		
         // See the Dribbble docs for all available shot properties.
-        htmlShots.push('<li class="shot-item">');
+        htmlShots.push('<li class="shotitem">');
         htmlShots.push('<img class="item" src="' + img + '"/>')
         htmlShots.push('</li>');
     });
 
-    $('.shots-container').html(htmlShots.join(''));
+    $('.shotlist').html(htmlShots.join(''));
 });
 
 function showImages(el) {
@@ -24,18 +24,18 @@ function showImages(el) {
         var thisPos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-        if (topOfWindow + windowHeight > thisPos ) {
+        if (topOfWindow + windowHeight - 200 > thisPos ) {
           	$(this).addClass("fadeIn");
         }
     });
 }
 
-// if the image in the window of browser when the page is loaded, show that image
+// if the image is in the window of browser when the page is loaded, show that image
 $(document).ready(function(){
     showImages('.item');
 });
 
-// if the image in the window of browser when scrolling the page, show that image
+// if the image is in the window of browser when scrolling the page, show that image
 $(window).scroll(function() {
     showImages('.item');
 });
