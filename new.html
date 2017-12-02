@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+	<section>
+		<h1><span>Erica Katrak</span> works at the intersection of research, strategy, design, and code.</h1>
+			
+		<p>Head of Design at <a href="http://www.prefer.com/" target="_blank">Prefer</a>, Mentor at <a href="http://www.designerfund.com/" target="_blank">Designer Fund</a><br />
+			
+		More —
+			<a class="more" href="http://www.dribbble.com/ericakatrak" target="_blank">Dribbble</a>
+			<a class="more" href="http://www.linkedin.com/in/ericakatrak" target="_blank">LinkedIn</a>
+			<a class="more" href="https://www.github.com/ericakatrak" target="_blank">Github</a>
+		</p>
+	</section>
+	
+	<ul class="shots"></ul>
+	
+	<script src="js/jquery.min.js"></script>
+  <script src="js/jribbble.min.js"></script>
+  
+  <script>
+    $.jribbble.setToken('e13cda5204483d79bb9781d1da2c711d2b70db1e51ff5ec4d7e7e285f3766ca1');
+  </script>
+  
+  <script>
+	  $.jribbble.users('ericakatrak').shots({per_page: 36}).then(function(shots) {
+	  var html = [];
+	  
+	  shots.forEach(function(shot) {
+	    html.push('<li class="shots--shot">');
+	    html.push('<a href="' + shot.html_url + '" target="_blank">');
+	    html.push('<img src="' + shot.images.normal + '">');
+	    html.push('</a></li>');
+	  });
+	  
+	  $('.shots').html(html.join(''));
+		});
+</script>
