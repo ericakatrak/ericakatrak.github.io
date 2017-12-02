@@ -24,8 +24,8 @@ html {
 }
 
 body {
-	color: #868a97;
-	
+	background: #f8f8f5;
+	color: #000;
 	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
 	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
@@ -41,7 +41,7 @@ section.intro {
 	margin: 6vw auto;
 }
 
-section.main-container {
+section.shots {
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -54,15 +54,15 @@ h1 {
 	line-height: 4vw;
 	font-weight: 400;
 	font-family: "Playfair Display", serif;
+	color: #000;
 	padding-bottom: 2vw;
-	
+/*	
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 	background-image: radial-gradient(#aaadba, #868a97, #303239);
 	background-size: 200% 200%;
 	background-position: 0 0;
-	animation: border 60s linear infinite, fade 2s ease-out -.65s;;
-  color: #303239;
+*/
 }
 
 h1 span {font-weight: 700;}
@@ -79,7 +79,7 @@ p {
 p:last-child {padding-bottom: 0;}
 
 a {
-	color: #868a97;
+	color: #000;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -119,10 +119,6 @@ a:hover:after {width: 100%;}
     position: relative;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     width: calc(50% - 40px);
-}
-.shots-container .shot-item:hover {
-    -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
 }
 
 .shots-container .shot-item .item {
