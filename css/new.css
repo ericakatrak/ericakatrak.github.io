@@ -154,6 +154,8 @@ a:hover:after {width: 100%;}
 @media (max-width:750px) {
 	
 	section.intro {
+		height: 80vh;
+		margin: 4vw auto;
 		max-width: 75vw;
 	}
 	
