@@ -130,17 +130,17 @@ a:hover:after {width: 100%;}
 
 /* ANIMATIONS */
 .fadeIn {
-    -webkit-animation: animat_show 0.8s;
-    animation: animat_show 0.8s;
-    visibility: visible !important;
+  -webkit-animation: fade 0.8s;
+  animation: fade 0.8s;
+  visibility: visible !important;
 }
 
-/*
+
 @keyframes fade {
   0%, 75% {opacity: 0;}
   100% {opacity: 1;} 
 }
-
+/*
 @keyframes border {
   0% {background-position: 0 0;}
   20% {background-position: 100% 0;}
@@ -176,4 +176,4 @@ a:hover:after {width: 100%;}
 }
 
 @media all and (max-width: 640px) {
-  }
+ }
