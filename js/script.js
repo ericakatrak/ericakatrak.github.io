@@ -24,7 +24,7 @@ function showImages(el) {
         var thisPos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-        if (topOfWindow + windowHeight - 1000 > thisPos ) {
+        if (topOfWindow + windowHeight > thisPos ) {
           	$(this).addClass("fadeIn");
         }
     });
