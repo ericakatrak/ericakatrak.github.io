@@ -7,19 +7,19 @@ $.jribbble.users(dribbbleUsername).shots({per_page: shotsOnPage}).then(function(
     shots.forEach(function(shot) {
     	var images = shot.images;
     	// If a hidpi image is available use that, if not fall back to the normal image
-		var img = (images.hidpi) ? images.hidpi : images.normal;
+			var img = (images.hidpi) ? images.hidpi : images.normal;
 		
-        // See the Dribbble docs for all available shot properties.
-        htmlShots.push('<li class="shotitem">');
-        htmlShots.push('<img class="item" src="' + img + '"/>')
-        htmlShots.push('</li>');
+      // See the Dribbble docs for all available shot properties.
+      htmlShots.push('<li class="shotitem">');
+      htmlShots.push('<img class="item" src="' + img + '"/>')
+      htmlShots.push('</li>');
     });
 
     $('.shotlist').html(htmlShots.join(''));
 });
 
 function showImages(el) {
-    var windowHeight = jQuery( window ).height()/2;
+    var windowHeight = jQuery( window ).height();
     $(el).each(function(){
         var thisPos = $(this).offset().top;
 

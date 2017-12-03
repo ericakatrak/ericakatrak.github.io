@@ -72,7 +72,6 @@ p {
 	line-height: 2.5vw;
 	font-weight: 400;
 	font-family: "Open Sans", sans-serif;
-	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
 }
 
@@ -130,17 +129,17 @@ a:hover:after {width: 100%;}
 
 /* ANIMATIONS */
 .fadeIn {
-  -webkit-animation: fade 0.8s;
-  animation: fade 0.8s;
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
   visibility: visible !important;
 }
 
-
+/*
 @keyframes fade {
   0%, 75% {opacity: 0;}
   100% {opacity: 1;} 
 }
-/*
+
 @keyframes border {
   0% {background-position: 0 0;}
   20% {background-position: 100% 0;}
