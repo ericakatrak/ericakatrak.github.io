@@ -46,7 +46,7 @@ section.shots {
 	display: flex;
 	flex-direction: column;
 	max-width: 90vw;
-	margin: 0 auto;
+	margin: 0 auto 4vw;
 }
 
 h1 {
@@ -115,10 +115,11 @@ a:hover:after {width: 100%;}
 }
 
 .shotlist .shotitem .item {
-    border-radius: 5px;
+    border-radius: 2px;
     position: relative;
     visibility: hidden;
     width: 100%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -155,19 +156,19 @@ a:hover:after {width: 100%;}
     display: block;
 		width: calc(100% - 40px);
   }
-  section.intro {max-width: 75vw;}
+}
+
+@media (max-width: 640px) {
+	section.intro {max-width: 75vw;}
   h1 {
-    	font-size: 6vw;
-    	line-height: 7.5vw;
-    	margin-bottom: 4vw;
+    font-size: 6vw;
+    line-height: 7.5vw;
+    margin-bottom: 4vw;
   }
   p {
-	font-size: 2.5vw;
-	line-height: 5vw;
-	padding-bottom: 4vw;
+		font-size: 2.5vw;
+		line-height: 5vw;
+		padding-bottom: 4vw;
   }
 
 }
-
-@media all and (max-width: 640px) {
- }
