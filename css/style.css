@@ -16,11 +16,11 @@ html {
 
 ::-moz-selection {
 	background: #EBAC4E;
-	color: #303239;
+	color: #000;
 }
 ::selection {
 	background: #EBAC4E;
-	color: #303239;
+	color: #000;
 }
 
 body {
