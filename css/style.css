@@ -24,45 +24,29 @@ html {
 }
 
 body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	color: #868a97;
-	
+	background: #f8f8f5;
+	color: #000;
 	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
 	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	font-feature-settings: "liga" on, "rlig" on, "kern" on;
-	
-	background-image: radial-gradient(#aaadba, #868a97, #303239);
-	background-size: 200% 200%;
-	background-position: 0 0;
-	animation: border 5s linear infinite;
-	border: 2vw solid #F5F6F8;
 }
 
-body:after {
-	content: "";
-	background: #F5F6F8;
-	position: absolute;
-	top: 0.15vw;
-	right: 0.15vw;
-	bottom: 0.15vw;
-	left: 0.15vw;
+section.intro {
+	height: 100vh;
+	display:flex;
+  flex-direction:column;
+  justify-content:center;
+	max-width: 52vw;
+	margin: 0 auto;
 }
 
-section {
+section.shots {
 	display: flex;
 	flex-direction: column;
-	position: relative;
-	z-index: 10;
-	max-width: 52vw;
+	max-width: 90vw;
+	margin: 0 auto 4vw;
 }
 
 h1 {
@@ -70,15 +54,8 @@ h1 {
 	line-height: 4vw;
 	font-weight: 400;
 	font-family: "Playfair Display", serif;
+	color: #000;
 	padding-bottom: 2vw;
-	
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-	background-image: radial-gradient(#aaadba, #868a97, #303239);
-	background-size: 200% 200%;
-	background-position: 0 0;
-	animation: border 60s linear infinite, fade 2s ease-out -.65s;;
-  color: #303239;
 }
 
 h1 span {font-weight: 700;}
@@ -88,14 +65,13 @@ p {
 	line-height: 2.5vw;
 	font-weight: 400;
 	font-family: "Open Sans", sans-serif;
-	animation: fade 2s ease-out -.65s;
 	padding-bottom: 2vw;
 }
 
 p:last-child {padding-bottom: 0;}
 
 a {
-	color: #868a97;
+	color: #000;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -123,29 +99,59 @@ a:after {
 a:hover:after {width: 100%;}
 
 
-@keyframes fade {
-  0%, 75% {opacity: 0;}
-  100% {opacity: 1;} 
+/* SHOTS */
+.shotlist .shotitem {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    width: calc(50% - 40px);
 }
 
-@keyframes border {
-  0% {background-position: 0 0;}
-  20% {background-position: 100% 0;}
-  40% {background-position: 100% 100%;}
-  60% {background-position: 0 100%;}
-  100% {background-position: 0 0;} 
+.shotlist .shotitem .item {
+    border-radius: 2px;
+    position: relative;
+    visibility: hidden;
+    width: 100%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
-@media all and (max-width: 640px) {
-  section {max-width: 75vw;}
-  h1 {
-    	font-size: 6vw;
-    	line-height: 7.5vw;
-    	margin-bottom: 4vw;
+
+/* ANIMATIONS */
+.fadeIn {
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+/* MEDIA QUERIES */
+@media (max-width:750px) {
+	
+	section.intro {
+		height: 80vh;
+		margin: 4vw auto;
+		max-width: 75vw;
+	}
+	
+	h1 {
+    font-size: 6vw;
+    line-height: 7.5vw;
+    margin-bottom: 4vw;
   }
+  
   p {
-	font-size: 2.5vw;
-	line-height: 5vw;
-	padding-bottom: 4vw;
+		font-size: 2.5vw;
+		line-height: 5vw;
+		padding-bottom: 4vw;
   }
+	
+  .shotlist .shotitem {
+    display: block;
+		width: calc(100% - 40px);
+  }
+  
 }
