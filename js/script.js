@@ -19,12 +19,12 @@ $.jribbble.users(dribbbleUsername).shots({per_page: shotsOnPage}).then(function(
 });
 
 function showImages(el) {
-    var windowHeight = jQuery( window ).height();
+    var windowHeight = jQuery( window ).height()/2;
     $(el).each(function(){
         var thisPos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-        if (topOfWindow + windowHeight + 600 > thisPos ) {
+        if (topOfWindow + windowHeight + 200 > thisPos ) {
           	$(this).addClass("fadeIn");
         }
     });
