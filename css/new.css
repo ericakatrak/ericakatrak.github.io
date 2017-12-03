@@ -127,6 +127,8 @@ a:hover:after {width: 100%;}
     visibility: hidden;
     width: 100%;
 }
+.shotlist .shotitem .item:first-child, .shotlist .shotitem .item:second-child {visibility: visible;}
+
 
 
 /* ANIMATIONS ***********************************************/
