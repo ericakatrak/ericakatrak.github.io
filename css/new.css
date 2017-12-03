@@ -34,18 +34,17 @@ body {
 }
 
 section.intro {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	max-width: 52vw;
 	height: 100vh;
+	display:flex;
+  flex-direction:column;
+  justify-content:center;
+	max-width: 52vw;
 	margin: 0 auto;
 }
 
 section.shots {
 	display: flex;
 	flex-direction: column;
-	position: relative;
 	max-width: 90vw;
 	margin: 0 auto;
 }
