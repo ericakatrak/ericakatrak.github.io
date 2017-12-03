@@ -107,7 +107,7 @@ a:after {
 a:hover:after {width: 100%;}
 
 
-/* SHOTS **************************************************/
+/* SHOTS */
 .shotlist {
     margin-bottom: 2em;
     min-height: 500px;
@@ -127,30 +127,14 @@ a:hover:after {width: 100%;}
     visibility: hidden;
     width: 100%;
 }
-.shotlist .shotitem .item:first-child, .shotlist .shotitem .item:second-child {visibility: visible;}
 
 
-
-/* ANIMATIONS ***********************************************/
+/* ANIMATIONS */
 .fadeIn {
     -webkit-animation: animat_show 0.8s;
     animation: animat_show 0.8s;
     visibility: visible !important;
 }
-
-@-webkit-keyframes animat_show {
-    0%{opacity:0}
-    100%{opacity:1}
-}
-
-/* MEDIA QUERIES *******************************************/
-@media(max-width:750px) {
-    .shotlist .shotitem {
-        display: block;
-        width: calc(100% - 40px);
-    }
-}
-
 
 /*
 @keyframes fade {
@@ -167,8 +151,18 @@ a:hover:after {width: 100%;}
 }
 */
 
-@media all and (max-width: 640px) {
-  section {max-width: 75vw;}
+@-webkit-keyframes animat_show {
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+/* MEDIA QUERIES */
+@media (max-width:750px) {
+  .shotlist .shotitem {
+    display: block;
+		width: calc(100% - 40px);
+  }
+  section.intro {max-width: 75vw;}
   h1 {
     	font-size: 6vw;
     	line-height: 7.5vw;
@@ -179,4 +173,8 @@ a:hover:after {width: 100%;}
 	line-height: 5vw;
 	padding-bottom: 4vw;
   }
+
 }
+
+@media all and (max-width: 640px) {
+  }
