@@ -17,25 +17,3 @@ $.jribbble.users(dribbbleUsername).shots({per_page: shotsOnPage}).then(function(
 
     $('.shotlist').html(htmlShots.join(''));
 });
-
-function showImages(el) {
-    var windowHeight = jQuery( window ).height()/2;
-    $(el).each(function(){
-        var thisPos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-        if (topOfWindow + windowHeight + 200 > thisPos ) {
-          	$(this).addClass("fadeIn");
-        }
-    });
-}
-
-// if the image is in the window of browser when the page is loaded, show that image
-$(document).ready(function(){
-    showImages('.item');
-});
-
-// if the image is in the window of browser when scrolling the page, show that image
-$(window).scroll(function() {
-    showImages('.item');
-});
