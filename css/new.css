@@ -38,7 +38,8 @@ section.intro {
 	flex-direction: column;
 	position: relative;
 	max-width: 52vw;
-	margin: 8vw auto;
+	height: 100vh;
+	margin: 0 auto;
 }
 
 section.shots {
