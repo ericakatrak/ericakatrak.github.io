@@ -101,18 +101,19 @@ a:hover:after {width: 100%;}
 
 /* SHOTS */
 .shotlist .shotitem {
-    display: inline-block;
-    margin: 20px;
-    position: relative;
-    width: calc(33% - 40px);
+  display: inline-block;
+  margin: 15px;
+  position: relative;
+  width: calc(33% - 30px);
 }
 
 .shotlist .shotitem .item {
-    border-radius: 2px;
-    position: relative;
-    visibility: hidden;
-    width: 100%;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  border: 10px solid #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  position: relative;
+  visibility: hidden;
+  width: 100%;
 }
 
 
