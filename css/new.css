@@ -107,11 +107,6 @@ a:hover:after {width: 100%;}
 
 
 /* SHOTS */
-.shotlist {
-    margin-bottom: 2em;
-    min-height: 500px;
-}
-
 .shotlist .shotitem {
     display: inline-block;
     margin: 20px;
