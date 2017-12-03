@@ -152,23 +152,33 @@ a:hover:after {width: 100%;}
 
 /* MEDIA QUERIES */
 @media (max-width:750px) {
-  .shotlist .shotitem {
-    display: block;
-		width: calc(100% - 40px);
-  }
-}
-
-@media (max-width: 640px) {
-	section.intro {max-width: 75vw;}
-  h1 {
+	
+	section.intro {
+		height: auto;
+		margin: 4vw auto;
+		max-width: 75vw;
+	}
+	
+	h1 {
     font-size: 6vw;
     line-height: 7.5vw;
     margin-bottom: 4vw;
   }
+  
   p {
 		font-size: 2.5vw;
 		line-height: 5vw;
 		padding-bottom: 4vw;
   }
+	
+  .shotlist .shotitem {
+    display: block;
+		width: calc(100% - 40px);
+  }
+  
+}
+
+@media (max-width: 640px) {
+  
 
 }
