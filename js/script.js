@@ -35,7 +35,4 @@ $(document).ready(function(){
     showImages('.item');
 });
 
-// if the image is in the window of browser when scrolling the page, show that image
-$(window).scroll(function() {
-    showImages('.item');
-});
+
