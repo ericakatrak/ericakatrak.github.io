@@ -11,7 +11,7 @@ $.jribbble.users(dribbbleUsername).shots({per_page: shotsOnPage}).then(function(
 		
       // See the Dribbble docs for all available shot properties.
       htmlShots.push('<li class="shotitem">');
-      htmlShots.push('<a href="' + shot.html_url + '">');
+      htmlShots.push('<a href="' + shot.html_url + '" target="_blank">');
       htmlShots.push('<img class="item" src="' + img + '"/>')
       htmlShots.push('</a></li>');
     });
