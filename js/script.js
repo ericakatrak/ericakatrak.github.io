@@ -1,5 +1,8 @@
-$.jribbble.setToken('06cf95687ae5bf5ea006aa0a1046f10561f68c2de1c6eb5be4a5b8bc298df717');
-
+jribbble.shots({token: "32346fbe05ad04f207853e86cc955846ead40d6aece66eec3b1342a19d57be0b"}, function(shots) {
+  document.querySelector(".dribbble-shots-list").innerHTML = shots.reduce(function(html, shot) {
+    return html + '<li><a href="'+  shot.html_url + '" target="_blank"><img src="' + shot.images.normal + '"></a></li>';
+  }, "");
+});
 
 $.jribbble.users(dribbbleUsername).shots({per_page: shotsOnPage}).then(function(shots) {
     var htmlShots = [];
