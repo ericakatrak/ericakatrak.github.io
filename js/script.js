@@ -14,7 +14,7 @@ function showImages(el) {
     $(el).each(function(){
         var thisPos = $(this).offset().top;
         console.log(topOfWindow, windowHeight, thisPos);
-        if (topOfWindow + windowHeight > thisPos ) {
+        if (topOfWindow + windowHeight - 200 > thisPos ) {
           	$(this).addClass("fadeIn");
         }
     });
@@ -22,6 +22,7 @@ function showImages(el) {
 
 // if the image is in the window of browser when the page is loaded, show that image
 $(document).ready(function(){
+    alert('hi');
     showImages('.item');
 });
 
