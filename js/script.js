@@ -9,6 +9,7 @@ jribbble.shots({token: "32346fbe05ad04f207853e86cc955846ead40d6aece66eec3b1342a1
 
 // LOADING LOGIC
 function showImages(el) {
+		console.log('hi');
 		var topOfWindow = $(window).scrollTop();
     var windowHeight = $(window).height();
     $(el).each(function(){
@@ -22,7 +23,7 @@ function showImages(el) {
 
 // if the image is in the window of browser when the page is loaded, show that image
 $(document).ready(function(){
-    alert('hi');
+    //alert('hi');
     showImages('.item');
 });
 
