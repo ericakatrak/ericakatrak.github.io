@@ -10,11 +10,12 @@ jribbble.shots({token: "32346fbe05ad04f207853e86cc955846ead40d6aece66eec3b1342a1
 
 // LOADING LOGIC
 function showImages(el) {
+		console.log('hi');
 		var topOfWindow = $(window).scrollTop();
     var windowHeight = $(window).height();
-    
     $(el).each(function(){
         var thisPos = $(this).offset().top;
+        console.log(topOfWindow, windowHeight, thisPos);
         if (topOfWindow + windowHeight - 200 > thisPos ) {
           	$(this).addClass("fadeIn");
         }
