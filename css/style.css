@@ -24,12 +24,12 @@ html {
 }
 
 body {
-	background: #f8f8f5;
-	color: #000;
+	background: rgba(26, 31, 35, 1);
+	color: #fff;
 	font-size: 1.5vw;
 	line-height: 3vw;
 	font-weight: 400;
-	font-family: Courier, monospace;
+	font-family: "Lato", Helvetica, sans-serif;
 	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
 	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
@@ -42,7 +42,7 @@ section.intro {
 	display:flex;
   flex-direction:column;
   justify-content:center;
-	max-width: 52vw;
+	max-width: 54vw;
 	margin: 0 auto;
 }
 
@@ -53,17 +53,12 @@ section.shots {
 	margin: 0 auto 4vw;
 }
 
-span {
-	text-transform: uppercase;
-	background: #000;
-	color: #f8f8f5;
-	padding: 0 8px;
-}
+span {font-weight: bold;}
 
 p:last-child {padding-bottom: 0;}
 
 a {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -102,7 +97,6 @@ a:hover:after {width: 100%;}
 
 .shotlist .shotitem .item {
   border-radius: 2px;
-  border: 10px solid #fff;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
   position: relative;
   visibility: hidden;
