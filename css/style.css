@@ -15,11 +15,13 @@ html {
 /* Common Style */
 
 ::-moz-selection {
-	background: #A87363;
+	background: #F2C261;
+	background-image: linear-gradient(to right,#EDA8A3,#F2C261,#DC9361,#934634);
 	color: #1D1918;
 }
 ::selection {
-	background: #A87363;
+	background: #F2C261;
+	background-image: linear-gradient(to right,#EDA8A3,#F2C261,#DC9361,#934634);
 	color: #1D1918;
 }
 
