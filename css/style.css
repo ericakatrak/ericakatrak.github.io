@@ -60,7 +60,7 @@ h1 {
 }
 
 p {
-	opacity: .3;
+	color: #5E6265;
 	font-size: 1vw;
 	text-transform: uppercase;
 }
@@ -73,7 +73,7 @@ span {
 }
 
 a {
-	color: #fff;
+	color: #5E6265;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
