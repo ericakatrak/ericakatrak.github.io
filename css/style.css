@@ -81,13 +81,13 @@ a {
 
 a.more {margin: 0 .5vh 0 0;}
 
-a:hover {color: #b96e2b;}
+a:hover {color: #B9822B;}
 
 a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #b96e2b;
+	background: #B9822B;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
