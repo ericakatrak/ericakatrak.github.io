@@ -29,7 +29,7 @@ body {
 	font-size: 1.5vw;
 	line-height: 3vw;
 	font-weight: 400;
-	font-family: "Lato", Helvetica, sans-serif;
+	font-family: proxima-nova, sans-serif;
 	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
 	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
@@ -39,11 +39,11 @@ body {
 
 section.intro {
 	height: 80vh;
-	display:flex;
-  flex-direction:column;
-  justify-content:center;
-	max-width: 54vw;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 40vw;
+	margin: 0 6vw;
 }
 
 section.shots {
@@ -53,9 +53,24 @@ section.shots {
 	margin: 0 auto 4vw;
 }
 
-span {font-weight: bold;}
+h1 {
+	font-family: grad, serif;
+	margin-bottom: .75vw;
+	opacity: .9;
+}
+
+p {
+	opacity: .3;
+	font-size: 1vw;
+	text-transform: uppercase;
+}
 
 p:last-child {padding-bottom: 0;}
+
+span {
+	opacity: .4;
+	padding: .5vw;
+}
 
 a {
 	color: #fff;
