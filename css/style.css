@@ -25,12 +25,12 @@ html {
 
 body {
 	background: #1D1918;
-	background: radial-gradient(circle at top right, #1D1918, #2C2625);
+	background: radial-gradient(circle at top right, #1D1918, #272220);
 }
 
 .radial-gradient {
   background: #1D1918;
-	background: radial-gradient(circle at top right, #1D1918, #2C2625);
+	background: radial-gradient(circle at top right, #1D1918, #272220);
 }
 
 section.intro {
