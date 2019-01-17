@@ -25,16 +25,6 @@ html {
 
 body {
 	background: #1A1F23;
-	color: #E8E8E9;
-	font-size: 1.5vw;
-	line-height: 3vw;
-	font-weight: 400;
-	font-family: proxima-nova, sans-serif;
-	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
-	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
-	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
-	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
-	font-feature-settings: "liga" on, "rlig" on, "kern" on;
 }
 
 section.intro {
@@ -54,14 +44,31 @@ section.shots {
 }
 
 h1 {
+	color: #E8E8E9;
 	font-family: grad, serif;
+	font-size: 2.25vw;
+	line-height: 3vw;
+	font-weight: 700;
 	margin-bottom: .75vw;
+	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
+	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
+	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
+	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
+	font-feature-settings: "liga" on, "rlig" on, "kern" on;
 }
 
 p {
 	color: #5E6265;
-	font-size: 1vw;
+	font-family: proxima-nova, sans-serif;
 	text-transform: uppercase;
+	font-size: 1.25vw;
+	line-height: 3vw;
+	font-weight: 400;
+	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
+	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
+	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
+	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
+	font-feature-settings: "liga" on, "rlig" on, "kern" on;
 }
 
 p:last-child {padding-bottom: 0;}
@@ -139,16 +146,19 @@ a:hover:after {width: 100%;}
 }
 
 /* MEDIA QUERIES */
-@media (max-width:750px) {
+
+@media all and (max-width: 640px) {
 	
-	body {
-		font-size: 4vw;
+	h1 {
+		font-size: 5.5vw;
 		line-height: 7.5vw;
-  }
-  
-  h1 {margin-bottom: 2.5vw;}
-  
-  p {font-size: 2.75vw;}
+		margin-bottom: 2vw;
+	}
+	
+	p {
+		font-size: 2.75vw;
+		line-height: 7.5vw;
+	}
 	
 	section.intro {
 		height: 80vh;
