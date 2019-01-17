@@ -15,16 +15,16 @@ html {
 /* Common Style */
 
 ::-moz-selection {
-	background: #EBAC4E;
-	color: #000;
+	background: #B9822B;
+	color: #1A1F23;
 }
 ::selection {
-	background: #EBAC4E;
-	color: #000;
+	background: #B9822B;
+	color: #1A1F23;
 }
 
 body {
-	background: rgba(26, 31, 35, 1);
+	background: #1A1F23;
 	color: #fff;
 	font-size: 1.5vw;
 	line-height: 3vw;
