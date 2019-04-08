@@ -65,12 +65,8 @@ p {
 p:first-child {
 	color: #EBEBEA;
 	font-size: 2vw;
-	margin-bottom: 6vw;
-	-moz-font-feature-settings: "liga=1, rlig=1, kern=1";
-	-ms-font-feature-settings: "liga" on, "rlig" on, "kern" on;
-	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
-	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
-	font-feature-settings: "liga" on, "rlig" on, "kern" on;
+	margin-bottom: 4vw;
+	font-weight: 600;
 }
 
 p:last-child {padding-bottom: 0;}
