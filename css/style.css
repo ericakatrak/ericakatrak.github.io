@@ -39,7 +39,7 @@ section.intro {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 40vw;
+	max-width: 42vw;
 	margin: 0 6vw;
 }
 
@@ -81,7 +81,7 @@ hr.dash {
 	width: 3vw;
 	display: inline-block;
 	vertical-align: middle;
-	border-top: .1vw solid;
+	border-top: .15vw solid;
 	top: -1vw;
 	position: relative;
 }
