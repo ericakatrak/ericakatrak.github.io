@@ -75,8 +75,6 @@ hr.dash {
 	color: #7D7A79;
 	height: 0;
 	width: 3vw;
-	display: inline-block;
-	vertical-align: middle;
 	border-top: .15vw solid;
 	top: -1vw;
 	position: relative;
@@ -156,6 +154,8 @@ a:hover:after {width: 100%;}
 		font-size: 4vw;
 		line-height: 7.5vw;
 	}
+	
+	hr.dash {border-top: .25vw solid;}
 	
 	section.intro {
 		height: 80vh;
