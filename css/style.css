@@ -43,17 +43,6 @@ section.intro {
 	margin: 0 6vw;
 }
 
-section.dash {
-	color: #7D7A79;
-	height: 0;
-	width: 3em;
-	display: inline-block;
-	vertical-align: middle;
-	border-top: .1em solid;
-	top: -.75em;
-	position: relative;
-}
-
 section.shots {
 	display: flex;
 	flex-direction: column;
@@ -72,6 +61,17 @@ h1 {
 	-o-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	-webkit-font-feature-settings: "liga" on, "rlig" on, "kern" on;
 	font-feature-settings: "liga" on, "rlig" on, "kern" on;
+}
+
+hr.dash {
+	color: #7D7A79;
+	height: 0;
+	width: 3em;
+	display: inline-block;
+	vertical-align: middle;
+	border-top: .1em solid;
+	top: -.75em;
+	position: relative;
 }
 
 p {
