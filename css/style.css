@@ -152,7 +152,7 @@ a:hover:after {width: 100%;}
 
 @media all and (max-width: 640px) {
 	
-	p {
+	p, p:first-child {
 		font-size: 4vw;
 		line-height: 7.5vw;
 	}
