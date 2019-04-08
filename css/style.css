@@ -26,6 +26,7 @@ html {
 body {
 	background: #1D1918;
 	background: radial-gradient(circle at top right, #1D1918, #272220);
+	font-family: proxima-nova, sans-serif;
 }
 
 .radial-gradient {
@@ -62,7 +63,6 @@ section.shots {
 
 h1 {
 	color: #EBEBEA;
-	font-family: grad, serif;
 	font-size: 2.5vw;
 	line-height: 3vw;
 	font-weight: 700;
@@ -76,7 +76,6 @@ h1 {
 
 p {
 	color: #7D7A79;
-	font-family: proxima-nova, sans-serif;
 	font-size: 2.5vw;
 	line-height: 1.5vw;
 	font-weight: 400;
