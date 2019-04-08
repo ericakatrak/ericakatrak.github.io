@@ -39,7 +39,7 @@ section.intro {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 48vw;
+	max-width: 40vw;
 	margin: 0 6vw;
 }
 
