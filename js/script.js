@@ -1,25 +1,11 @@
 // JRIBBBLE
-// Get a list of shots and display them in the DOM.
-
-// Set the Access Token
-var accessToken = '32346fbe05ad04f207853e86cc955846ead40d6aece66eec3b1342a19d57be0b';
-
-// Call Dribble v2 API
-$.ajax({
-    url: 'https://api.dribbble.com/v2/user/shots?access_token='+accessToken,
-    dataType: 'json',
-    type: 'GET',
-    success: function(data) {  
-      if (data.length > 0) { 
-        $.each(data.reverse(), function(i, val) {                
-          $('.shotlist').prepend(
-            '<li class="shotitem"><a target="_blank" href="'+ val.html_url +'" title="' + val.title + '"><img class="item" src="'+ val.images.hidpi +'"/></a></li>'
-            )
-        })
-      }
-    }
+// Get a list of your shots and display them in the DOM.
+jribbble.shots({token: "32346fbe05ad04f207853e86cc955846ead40d6aece66eec3b1342a19d57be0b", per_page: 60}, function(shotsArray) {
+  document.querySelector(".shotlist").innerHTML = shotsArray.reduce(function(html, shot) {
+    return html + '<li class="shotitem"><a href="'+  shot.html_url + '" target="_blank"><img class="item" src="' + shot.images.hidpi + '"></a></li>';
+  }, "");
+  showImages('.item', 0);
 });
-
 
 // LOADING LOGIC
 function showImages(el, delay) {
