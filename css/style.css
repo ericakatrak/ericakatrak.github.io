@@ -25,13 +25,13 @@ html {
 
 body {
 	background: #fff;
-	background: radial-gradient(circle at top right, #fff, #fffd38);
+	background: radial-gradient(circle at top right, #fff, #D0C4A9);
 	font-family: proxima-nova, sans-serif;
 }
 
 .radial-gradient {
 	background: #fff;
-	background: radial-gradient(circle at top right, #fff, #fffd38);
+	background: radial-gradient(circle at top right, #fff, #D0C4A9);
 }
 
 section.intro {
