@@ -90,13 +90,13 @@ a {
 
 a.more {margin: 0 .5vh 0 0;}
 
-a:hover {color: #FBBF9B;}
+a:hover {color: #FFC21C;}
 
 a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #FBBF9B;
+	background: #FFC21C;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
