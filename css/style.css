@@ -25,13 +25,13 @@ html {
 
 body {
 	background: #fff;
-	background: radial-gradient(circle at top right, #fff, #F8B8A1);
+	background: radial-gradient(circle at top right, #F8B8A1, #fff);
 	font-family: proxima-nova, sans-serif;
 }
 
 .radial-gradient {
 	background: #fff;
-	background: radial-gradient(circle at top right, #fff, #F8B8A1);
+	background: radial-gradient(circle at top right, #F8B8A1, #fff);
 }
 
 section.intro {
@@ -90,13 +90,13 @@ a {
 
 a.more {margin: 0 .5vh 0 0;}
 
-a:hover {color: #FFC21C;}
+a:hover {color: #F8B8A1;}
 
 a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #FFC21C;
+	background: #F8B8A1;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
