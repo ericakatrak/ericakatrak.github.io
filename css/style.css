@@ -15,23 +15,23 @@ html {
 /* Common Style */
 
 ::-moz-selection {
-	background: #fffd38;
-	color: #a18954;
+	background: #FFC21C;
+	color: #1D1E1F;
 }
 ::selection {
-	background: #fffd38;
-	color: #a18954;
+	background: #FFC21C;
+	color: #1D1E1F;
 }
 
 body {
 	background: #fff;
-	background: radial-gradient(circle at top right, #fff, #FFFED7);
+	background: radial-gradient(circle at top right, #fff, #F8B8A1);
 	font-family: proxima-nova, sans-serif;
 }
 
 .radial-gradient {
 	background: #fff;
-	background: radial-gradient(circle at top right, #fff, #FFFED7);
+	background: radial-gradient(circle at top right, #fff, #F8B8A1);
 }
 
 section.intro {
@@ -51,7 +51,7 @@ section.shots {
 }
 
 p {
-	color: #a18954;
+	color: #1D1E1F;
 	font-size: 1.5vw;
 	line-height: 2.5vw;
 	font-weight: 400;
@@ -63,7 +63,7 @@ p {
 }
 
 p:first-child {
-	color: #a18954;
+	color: #1D1E1F;
 	font-size: 2vw;
 	margin-bottom: 4vw;
 	font-weight: 600;
@@ -72,7 +72,8 @@ p:first-child {
 p:last-child {padding-bottom: 0;}
 
 hr.dash {
-	color: #a6a8ab;
+	color: #1D1E1F;
+	opacity: .1;
 	height: 0;
 	width: 3vw;
 	border-top: .15vw solid;
@@ -81,7 +82,7 @@ hr.dash {
 }
 
 a {
-	color: #a18954;
+	color: #1D1E1F;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -89,13 +90,13 @@ a {
 
 a.more {margin: 0 .5vh 0 0;}
 
-a:hover {color: #a18954;}
+a:hover {color: #FFC21C;}
 
 a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #a18954;
+	background: #FFC21C;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
