@@ -25,13 +25,13 @@ html {
 
 body {
 	background: #fff;
-	background: radial-gradient(circle at top right, #fff, #D0C4A9);
+	background: radial-gradient(circle at top right, #fff, #FFFED7);
 	font-family: proxima-nova, sans-serif;
 }
 
 .radial-gradient {
 	background: #fff;
-	background: radial-gradient(circle at top right, #fff, #D0C4A9);
+	background: radial-gradient(circle at top right, #fff, #FFFED7);
 }
 
 section.intro {
@@ -72,7 +72,7 @@ p:first-child {
 p:last-child {padding-bottom: 0;}
 
 hr.dash {
-	color: #a18954;
+	color: #a6a8ab;
 	height: 0;
 	width: 3vw;
 	border-top: .15vw solid;
