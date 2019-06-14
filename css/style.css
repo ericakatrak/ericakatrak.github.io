@@ -72,7 +72,7 @@ p:first-child {
 p:last-child {padding-bottom: 0;}
 
 hr.dash {
-	color: #7D7A79;
+	color: #a18954;
 	height: 0;
 	width: 3vw;
 	border-top: .15vw solid;
@@ -81,7 +81,7 @@ hr.dash {
 }
 
 a {
-	color: #7D7A79;
+	color: #a18954;
 	text-decoration: none;
 	white-space: nowrap;
 	position: relative;
@@ -89,13 +89,13 @@ a {
 
 a.more {margin: 0 .5vh 0 0;}
 
-a:hover {color: #A87363;}
+a:hover {color: #a18954;}
 
 a:after {
 	content: '';
 	width: 0;
 	height: 1.5px;
-	background: #A87363;
+	background: #a18954;
 	position: absolute;
 	bottom: -5px;
 	left: 0;
