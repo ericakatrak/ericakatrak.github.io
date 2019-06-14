@@ -15,23 +15,23 @@ html {
 /* Common Style */
 
 ::-moz-selection {
-	background: #F2C261;
-	color: #1D1918;
+	background: #fffd38;
+	color: #a18954;
 }
 ::selection {
-	background: #F2C261;
-	color: #1D1918;
+	background: #fffd38;
+	color: #a18954;
 }
 
 body {
-	background: #1D1918;
-	background: radial-gradient(circle at top right, #1D1918, #272220);
+	background: #fff;
+	background: radial-gradient(circle at top right, #fff, #fffd38);
 	font-family: proxima-nova, sans-serif;
 }
 
 .radial-gradient {
-	background: #1D1918;
-	background: radial-gradient(circle at top right, #1D1918, #272220);
+	background: #fff;
+	background: radial-gradient(circle at top right, #fff, #fffd38);
 }
 
 section.intro {
@@ -51,7 +51,7 @@ section.shots {
 }
 
 p {
-	color: #7D7A79;
+	color: #a18954;
 	font-size: 1.5vw;
 	line-height: 2.5vw;
 	font-weight: 400;
@@ -63,7 +63,7 @@ p {
 }
 
 p:first-child {
-	color: #EBEBEA;
+	color: #a18954;
 	font-size: 2vw;
 	margin-bottom: 4vw;
 	font-weight: 600;
