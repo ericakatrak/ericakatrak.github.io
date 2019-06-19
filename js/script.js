@@ -29,12 +29,12 @@ $(window).scroll(function() {
 
 
 // RADIAL GRADIENT MOVEMENT
-$(document).mousemove(function(event) {
-  windowWidth = $(window).width();
-  windowHeight = $(window).height();
+//$(document).mousemove(function(event) {
+//  windowWidth = $(window).width();
+//  windowHeight = $(window).height();
   
-  mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
-  mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
+//  mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
+//  mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
   
-  $('.radial-gradient').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #F5EDE8, #fff)');
-});
+//  $('.radial-gradient').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #F5EDE8, #fff)');
+//});
