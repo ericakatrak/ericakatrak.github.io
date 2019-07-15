@@ -152,10 +152,10 @@ a:hover:after {width: 100%;}
 
 @media all and (max-width: 640px) {
 	
-	/*p, p:first-child {
-		font-size: 4vw;
+	p, p:first-child {
+		font-size: 4.5vw;
 		line-height: 7.5vw;
-	}*/
+	}
 	
 	hr.dash {border-top: .25vw solid;}
 	
